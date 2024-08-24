@@ -7,7 +7,7 @@ A 'fork' is a copy of a repository. Forking a repository allows you to freely ex
 the original project. You can fork a repository to propose changes to someone else's project or to use someone else's
 project as a starting point for your own idea.
 
-Go to the [ucl-comp0035/comp0035-practice]() repository.
+Go to the [nicholsons/comp0035-2024-tutorials](https://github.com/nicholsons/comp0035-2024-tutorials) repository.
 
 1. Click on the 'Fork' button in the top right of the page.
 
