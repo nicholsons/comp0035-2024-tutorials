@@ -13,38 +13,43 @@ session:
 ## Introduction
 
 This session introduces you to using Git, GitHub and GitHub Classroom. It then walks through setting up a project in an
-IDE. The learning objective is that you should have sufficient knowledge to create a project in your IDE for your coursework.
+IDE. The learning objective is that you should have sufficient knowledge to create a project in your IDE for your
+coursework.
 
 This class will not be sufficient to teach you the full use of Git, GitHub and their integration with your chosen code
-editor or IDE. There are also video tutorials and guides in the Reading List for week 1. The best way to learn is to keep using
+editor or IDE. There are also video tutorials and guides in the Reading List for week 1. The best way to learn is to
+keep using
 Git and GitHub throughout the COMP0035 and COMP0034 projects.
 
 There are different ways to create a GitHub repository including:
 
 1. Create a new empty repository directly on GitHub.com
-2. Accept an assignment from GitHub classroom
-3. Push existing code from a project on your computer to GitHub
+2. Push existing code from a project on your computer to GitHub
+3. Accept an assignment from GitHub classroom
 4. Fork an existing GitHub repository
 
 You can work with GitHub using a git command line from a terminal; directly on GitHub.com or using any number of source
 code control software. In COMP0034 and COMP0035 it is assumed you will mostly work with GitHub using your IDE (VS Code,
 PyCharm etc.) so this tutorial focuses on this method.
 
-The approaches you are most likely to use in the course are as follows.
+The two approaches you are most likely to use in the course are:
 
-For the coursework:
+**Accept an assignment from GitHub Classroom** - used for the Coursework
 
-1. Create a repository using GitHub Classroom
+1. Create your own copy of a repository by accepting a GitHub Classroom assignment. This creates a remote copy of the
+   repository in the ucl-comp0035 organisation.
+2. Clone this remote copy from GitHub to your IDE to create a project with a local repository
+3. Create a virtual environment for the project (local repository) in your IDE
+4. Edit code in the IDE and push changes from your local repository to the remote repository on GitHub
+
+**Fork an existing GitHub repository** - used for the Tutorials (Coding practicals)
+
+1. Fork the course repository for the tutorials. This creates a remote copy of the repository in your GitHub account.
 2. Clone the repository to your IDE to create a project
 3. Create a virtual environment for the project in your IDE
 4. Edit code in the IDE and push changes to the remote repository
 
-For the coding practicals (tutorials):
-
-1. Fork the course repository for the tutorials
-2. Clone the repository to your IDE to create a project
-3. Create a virtual environment for the project in your IDE
-4. Edit code in the IDE and push changes to the remote repository
+The tutorial will cover these steps in more detail.
 
 ## Contents
 
@@ -52,17 +57,18 @@ For the coding practicals (tutorials):
 various repositories (not necessarily those in the instructions); and the interfaces to GitHub, PyCharm and VSCode are
 likely to vary over time and on different operating systems.
 
-- [Create a repository directly on GitHub (10 mins)](#create-a-new-repository-directly-on-github)
-- [Create a repository using GitHub Classroom (10 mins)](#create-a-repository-using-github-classroom)
-- [Find a repository in GitHub (5 mins)](#find-a-repository-in-github)
-- [Integrate your IDE with your GitHub account (10 mins)](#integrate-your-ide-with-your-github-account)
-- [Clone a repository to create a project in your IDE (5 mins)](#create-a-clone-of-a-repository-in-your-ide)
-- [Create a virtual Python environment for a project in your IDE]()
-- [Make and push a change to the remote repository (5 mins)](#make-a-change-and-push-it-to-the-remote-repository)
-- [Next steps in GitHub](#next-steps)
-- [Sources of information](#sources-of-information)
+1. [Create a repository directly on GitHub (10 mins)](#create-a-new-repository-directly-on-github)
+2. [Create a repository using GitHub Classroom (10 mins)](#create-a-repository-using-github-classroom)
+3. [Create a repository by forking a GitHub repository (5 mins)]()
+4. [Find a repository in GitHub (5 mins)](#find-a-repository-in-github)
+5. [Integrate your IDE with your GitHub account (10 mins)](#integrate-your-ide-with-your-github-account)
+6. [Clone a repository to create a project in your IDE (5 mins)](#create-a-clone-of-a-repository-in-your-ide)
+7. [Create a virtual Python environment for a project in your IDE]()
+8. [Make and push a change to the remote repository (5 mins)](#make-a-change-and-push-it-to-the-remote-repository)
 
 ## Create a new repository directly on GitHub
+
+You should learn this method, though you will not use it for the coursework or tutorials.
 
 ### Instructions
 
@@ -84,10 +90,11 @@ available [in the GitHub documentation](https://docs.github.com/en/get-started/q
     6. Choose a license is optional. A license tells other developers whether and how they can use your code.
 4. Click **Create repository**.
 
-## Create a repository using GitHub Classroom
+## Create a repository by accepting a GitHub Classroom assignment
 
-For this course in addition to Git and GitHub we will also be using GitHub Classroom. GitHub Classroom provides a way
-for you to create repository so that it can then be accessed by yourself, the course tutor and PGTAs.
+GitHub Classroom provides a way for you to create repository so that it can then be accessed by yourself, the course tutor and PGTAs.
+
+You can directly access the classroom, though you don't need to do this as you will be given a link to the classroom assignments when you need to use it.
 
 All coursework repositories for COMP0034 and COMP0035 are created using GitHub Classroom.
 
@@ -95,7 +102,7 @@ You click on a URL that creates a copy of a template repository with some starte
 coursework.
 
 Repositories that are created this way are stored in an organisation called **ucl-comp0035**, not in your personal
-GitHub account. They are created as 'private' which in this case means only you and the course tutor and PGTAs can see
+GitHub account. They are created as **private** which in this case means only you and the course tutor and PGTAs can see
 your code.
 
 ### Instructions
