@@ -1,0 +1,13 @@
+# Basic project information
+[project]
+name = "comp0035-2024-tutorials"
+version = "2024.0.1"
+
+# Most students will use setuptools, though poetry is also an option
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+# Setuptools configuration see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#setuptools-specific-configuration
+[tool.setuptools.packages.find]
+exclude = ["activities"]  # exclude packages matching these glob patterns (empty by default)

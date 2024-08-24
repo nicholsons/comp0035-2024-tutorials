@@ -63,8 +63,8 @@ various repositories (not necessarily those in the instructions); and the interf
 in different versions and on different operating systems.
 
 1. [Create a repository directly on GitHub (10 mins)](#create-a-new-repository-directly-on-github)
-2. [Create a repository using GitHub Classroom (10 mins)](#create-a-repository-using-github-classroom)
-3. [Create a repository by forking a GitHub repository (5 mins)](create-a-repository-by-forking-a-github-repository)
+2. [Create a repository using GitHub Classroom (10 mins)](#create-a-repository-by-accepting-a-github-classroom-assignment)
+3. [Create a repository by forking a GitHub repository (5 mins)](#create-a-repository-by-forking-a-github-repository)
 4. [Find a repository in GitHub (5 mins)](#find-a-repository-in-github)
 5. [Integrate your IDE with your GitHub account (10 mins)](#integrate-your-ide-with-your-github-account)
 6. [Clone a repository to create a project in your IDE (5 mins)](#create-a-clone-of-a-repository-in-your-ide)
@@ -241,7 +241,7 @@ Working with branches is not covered in this tutorial.
 
 ## Create a clone of a repository in your IDE
 
-When you create a repository on GitHub.com, it exists as a remote repository. You have seen that you can edit files
+When you create a repository on GitHub.com, it exists as a remote repository. You can edit files
 directly on GitHub however this is not recommended as you will miss the benefits of an IDE such as auto-complete, error
 checking and code AI.
 
@@ -249,32 +249,22 @@ Instead, you
 will [clone a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)
 . This creates a local copy of the repository on your computer. You then need to sync between the two locations.
 
-### Instructions
-
-This varies by IDE.
-
 If you have integrated your IDE and GitHub you should be able to follow the IDE's instructions and enter the repository
 name by entering the owner and the repository name e.g.
 
 - `ucl-comp0035/comp0035-practice`
 - `yourusername/hello-world`
 
-If you have not been able to integrate, you may need to find the URL of the repository. To do this:
+If you have not been able to integrate your IDE with GitHub, you may need to find the URL of the repository. In GitHub
+copy the URL for the repository. To do this, open your 'practice' repository, select **Code** and then copy the URL to
+the clipboard.
 
-1. In GitHub copy the URL for the repository. To do this, open your 'practice' repository,
-   select **Code** and then copy the URL to the clipboard.
+![GitHub clone or download](img/gh-clone.png)
 
-   ![GitHub clone or download](img/gh-clone.png)
-
-Follow the guidance for your IDE to clone either the 'practice' repository'.
+> ACTION: Follow the guidance for your IDE to clone the 'practice' repository'.
 
 - [PyCharm documentation](https://www.jetbrains.com/help/pycharm/manage-projects-hosted-on-github.html#clone-from-GitHub)
-  . If you have already completed the steps to integrate PyCharm with GitHub then you may not need to complete step 3 in
-  the instructions.
-
-- [VS Code documentation](https://code.visualstudio.com/docs/sourcecontrol/github#_cloning-a-repository). In some
-  repositories on GitHub you may see an 'Open in Visual Studio Code' blue button that you can use that to clone the
-  repository.
+- [VS Code documentation](https://code.visualstudio.com/docs/sourcecontrol/github#_cloning-a-repository)
 
 ## Setting up a Python environment in your IDE
 
@@ -344,11 +334,11 @@ You can install all the libraries in the virtual environment using the Terminal 
 pip install -r requirements.txt
 ```
 
-> ACTION: In your 'practice' project, use pip to install the libraries in the requirements.txt file.
-
 You can update the requirements.txt file with new libraries or different versions by editing the file. The requirements
 file format
 is [documented here](https://pip.pypa.io/en/stable/reference/requirements-file-format/#requirements-file-format).
+
+> ACTION: In your 'practice' project, use pip to install the libraries in the requirements.txt file.
 
 ### pyproject.toml
 
@@ -373,7 +363,11 @@ version = "2024.0.0"
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
-
+# Setuptools configuration see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#setuptools-specific-configuration
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+include = ["my_package*"]  # package names should match these glob patterns (["*"] by default)
+exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns (empty by default)
 ```
 
 More on [pyproject.toml here](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/).
@@ -449,7 +443,7 @@ VS Code version:
    used
    the icon (a page with a + symbol) below and entered the filename as `temp.py`:
 
-   ![VS Code create new python file](../assets/img/vsc-new-file.png)
+   ![VS Code create new python file](img/vsc-new-file.png)
 2. Add a line of code to the file. [VS Code editing code](https://code.visualstudio.com/docs/python/editing).
 
    e.g. `print("this is a temporary file")`
@@ -458,7 +452,7 @@ VS Code version:
     - [PyCharm](https://www.jetbrains.com/help/pycharm/adding-files-to-version-control.html)
     - VSCode: Find the source code control icon in the left menu bar and expand the **Changes** section
 
-   ![VS Code source code control changes](../assets/img/vsc-scc-changes.png)
+   ![VS Code source code control changes](img/vsc-scc-changes.png)
 
 4. To add the file to be tracked select the **+** symbol next from the icons to the right of the file name which will
    stage the changes (this _adds_ the file and starts the commit step).
@@ -466,18 +460,18 @@ VS Code version:
 5. Add a commit message (see the Message box under the Source Control heading in the image below) and press the drop
    down arrow at the edge of the blue 'Commit' button and select 'Commit and Push'.
 
-   ![VS Code source code control commit message](../assets/img/vsc-commit-message.png)
+   ![VS Code source code control commit message](img/vsc-commit-message.png)
 
    > Previously some students got an error message warning that you need to set your username and email. If this happens
    then [follow the instructions here](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git)
    . You can then **sync with GitHub** which carries out a pull and a push.
-   > ![VS Code source code control sync](../assets/img/vsc-scc-sync.png)
+   > ![VS Code source code control sync](img/vsc-scc-sync.png)
    > Synchronise is also available using the circular arrow icon show in the bottom left of the image below:
-   > ![VS Code source code control sync from menu bar](../assets/img/vsc-scc-sync-bar.png)
+   > ![VS Code source code control sync from menu bar](img/vsc-scc-sync-bar.png)
 
 6. You should now see the changes in GitHub with your commit message (e.g. 'Added temp' in the image below):
 
-   ![GitHub latest commit message](../assets/img/gh-new-commit.png)
+   ![GitHub latest commit message](img/gh-new-commit.png)
 
 For PyCharm, the approach is the same but the instructions for the steps is different:
 
