@@ -15,4 +15,4 @@ activities and code.
 
 1. Fork this repository to your own GitHub account.
 2. Clone the forked repository to your local machine.
-3. Each week, update the repository using GitHub
+3. Each week, update the repository using the 'Sync fork' button in GitHub.

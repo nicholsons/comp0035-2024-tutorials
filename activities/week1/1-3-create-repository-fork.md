@@ -11,4 +11,20 @@ Go to the [nicholsons/comp0035-2024-tutorials](https://github.com/nicholsons/com
 
 1. Click on the 'Fork' button in the top right of the page.
 
-    ![Fork button](../img/gh-fork.png)
+   ![Fork button](../img/gh-fork.png)
+
+2. Create a new fork. Untick the option to 'Copy the master branch only' and click 'Create fork'.
+
+   ![Fork repository](../img/gh-create-fork.png)
+
+   You may see a temporary screen while the fork is created.
+
+3. You will be taken to your new forked repository once created. The URL will be in the format
+   `yourusername/comp0035-2024-tutorials`.
+
+   ![Forked repository](../img/gh-forked-repo.png)
+
+IMPORTANT: This repository will be updated weekly with new activities. You should pull these changes into your forked
+repository to keep it up to date. Use the 'Sync fork' button.
+
+![Sync fork](../img/gh-sync-fork.png)
