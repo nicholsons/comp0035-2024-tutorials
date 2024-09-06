@@ -26,7 +26,7 @@ activities and code.
 
 This will be updated each week with the activities for that week.
 
-Week 1:
+### [Week 1: Setting up a project in your IDE (VS Code, PyCharm) using source code control and python virtual environment](activities/week1)
 
 - [Instructions for week 1](activities/week1/1-0-instructions.md)
 - [Create a repository on GitHub](activities/week1/1-1-create-repository-github.md)
@@ -37,3 +37,14 @@ Week 1:
 - [Clone a repository from GitHub to your IDE](activities/week1/1-6-clone-repository.md)
 - [Create a virtual environment for a project in your IDE](activities/week1/1-7-create-virtual-environment.md)
 - [Synchronise changes between your local repository in your IDE and the remote repository on GitHub](activities/week1/1-8-synch-changes.md)
+
+### Week 2 TBC
+### Week 3 TBC
+### Week 4 TBC
+### Week 5 TBC
+### Week 6 TBC
+### Week 7 TBC
+### Week 8 TBC
+### Week 9 TBC
+### Week 10
+No activities this week. This is the final week of the module, please use the session to complete the coursework.
