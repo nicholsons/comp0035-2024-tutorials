@@ -26,12 +26,14 @@ activities and code.
 
 This will be updated each week with the activities for that week.
 
-1. [Week 1: Instructions for week 1](activities/week1/1-0-instructions.md)
-2. [Week 1: Create a repository on GitHub](activities/week1/1-1-create-repository-github.md)
-3. [Week 1: Create a repository using GitHub Classroom](activities/week1/1-2-create-repository-github-classroom.md)
-4. [Week 1: Create a repository by forking an existing repository](activities/week1/1-3-create-repository-fork.md)
-5. [Week 1: Find a repository](activities/week1/1-4-find-repository.md)
-6. [Week 1: Integrate your IDE with your GitHub account](activities/week1/1-5-integrate-IDE-github.md)
-7. [Week 1: Clone a repository from GitHub to your IDE](activities/week1/1-6-clone-repository.md)
-8. [Week 1: Create a virtual environment for a project in your IDE](activities/week1/1-7-create-virtual-environment.md)
-9. [Week 1: Synchronise changes between your local repository in your IDE and the remote repository on GitHub](activities/week1/1-8-synch-changes.md)
+Week 1:
+
+- [Instructions for week 1](activities/week1/1-0-instructions.md)
+- [Create a repository on GitHub](activities/week1/1-1-create-repository-github.md)
+- [Create a repository using GitHub Classroom](activities/week1/1-2-create-repository-github-classroom.md)
+- [Create a repository by forking an existing repository](activities/week1/1-3-create-repository-fork.md)
+- [Find a repository](activities/week1/1-4-find-repository.md)
+- [Integrate your IDE with your GitHub account](activities/week1/1-5-integrate-IDE-github.md)
+- [Clone a repository from GitHub to your IDE](activities/week1/1-6-clone-repository.md)
+- [Create a virtual environment for a project in your IDE](activities/week1/1-7-create-virtual-environment.md)
+- [Synchronise changes between your local repository in your IDE and the remote repository on GitHub](activities/week1/1-8-synch-changes.md)
