@@ -57,7 +57,8 @@ The tutorial will cover these steps in more detail.
 
 ## Complete the tutorial activities
 
-**Note: The screenshots in the following activities provide a guide but may not exactly match your computer screen**. They
+**Note: The screenshots in the following activities provide a guide but may not exactly match your computer screen**.
+They
 show
 various repositories (not necessarily those in the instructions); and the interfaces to GitHub, PyCharm and VSCode vary
 in different versions and on different operating systems.
@@ -66,17 +67,23 @@ Complete the activities in the separate documents linked below. Then return to t
 
 1. [Create a repository directly on GitHub (10 mins)](1-1-create-repository-github.md)
 2. [Create a repository using GitHub Classroom (10 mins)](1-2-create-repository-github-classroom.md)
-3. [Create a repository by forking a GitHub repository (5 mins)](1-1-create-repository-github.md)
+3. [Create a repository by forking a GitHub repository (5 mins)](1-3-create-repository-fork.md)
 4. [Find a repository (5 mins)](1-4-find-repository.md)
 5. [Integrate your IDE with your GitHub account (10 mins)](1-5-integrate-IDE-github.md)
 6. [Clone a repository to create a project in your IDE (5 mins)](1-6-clone-repository.md)
 7. [Create a virtual Python environment for a project in your IDE (10 mins)](1-7-create-virtual-environment.md)
 8. [Synchronise changes between the local and remote repository (5 mins)](1-8-synch-changes.md)
 
-
 ## Apply the knowledge to create and set up your coursework project
 
-1. Accept the GitHub Classroom assignment for the coursework.
+Once you have completed the tutorial activities, you should be able to carry out the following to set up your coursework
+repository in GitHub and create a project in your IDE that clones the repository.
+
+1. Accept the GitHub Classroom assignment for the coursework. This will create a remote repository in the ucl-comp0035
+   organisation. 
+
+   TODO: Add link to GitHub Classroom assignment.
+
 2. Clone the repository to your IDE.
 3. Create and activate a virtual environment.
 4. Install the libraries in the requirements.txt file.

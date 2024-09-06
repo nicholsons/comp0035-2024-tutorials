@@ -21,3 +21,17 @@ activities and code.
 2. Clone the forked repository to your local machine (e.g. in VS Code or PyCharm).
 3. Each week, update the repository using the 'Sync fork' button in GitHub to check for changes, if it is out of date
    then select the 'Update branch' button.
+
+## List of activities
+
+This will be updated each week with the activities for that week.
+
+1. [Week 1: Instructions for week 1](activities/week1/1-0-instructions.md)
+2. [Week 1: Create a repository on GitHub](activities/week1/1-1-create-repository-github.md)
+3. [Week 1: Create a repository using GitHub Classroom](activities/week1/1-2-create-repository-github-classroom.md)
+4. [Week 1: Create a repository by forking an existing repository](activities/week1/1-3-create-repository-fork.md)
+5. [Week 1: Find a respository](activities/week1/1-4-find-repository.md)
+6. [Week 2: Integrate your IDE with your GitHub account](activities/week1/1-5-integrate-IDE-github.md)
+7. [Week 1: Clone a responsitory from GitHub to your IDE](activities/week1/1-6-clone-repository.md)
+8. [Week 1: Create a virtual environment](activities/week1/1-7-create-virtual-environment.md)
+9. [Week 1: Synchronise changes between your local repository in your IDE and the remote repository on GitHub](activities/week1/1-8-synch-changes.md)

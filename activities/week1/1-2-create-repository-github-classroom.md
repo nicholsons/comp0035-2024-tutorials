@@ -19,7 +19,7 @@ your code; but not any other students.
 
 1. Login to [GitHub](https://github.com/login)
 2. After you log in, click on this practice GitHub classroom assignment
-   link: [https://classroom.github.com/a/Y62rRhVm](https://classroom.github.com/a/Y62rRhVm).
+   link: [https://classroom.github.com/a/Y62rRhVm](https://classroom.github.com/a/Y62rRhVm)
 3. The first time that you use GitHub classroom you need to:
     - authorise your GitHub account to use GitHub Classroom
     - join the organisation that owns the classroom, ucl-comp0035
