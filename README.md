@@ -26,7 +26,7 @@ activities and code.
 
 This will be updated each week with the activities for that week.
 
-### [Week 1: Setting up a project in your IDE (VS Code, PyCharm) using source code control and python virtual environment](activities/week1)
+### Week 1: Setting up a project in your IDE (VS Code, PyCharm) using source code control and python virtual environment
 
 - [Instructions for week 1](activities/week1/1-0-instructions.md)
 - [Create a repository on GitHub](activities/week1/1-1-create-repository-github.md)
@@ -38,13 +38,23 @@ This will be updated each week with the activities for that week.
 - [Create a virtual environment for a project in your IDE](activities/week1/1-7-create-virtual-environment.md)
 - [Synchronise changes between your local repository in your IDE and the remote repository on GitHub](activities/week1/1-8-synch-changes.md)
 
-### Week 2 TBC
-### Week 3 TBC
-### Week 4 TBC
-### Week 5 TBC
-### Week 6 TBC
-### Week 7 TBC
-### Week 8 TBC
-### Week 9 TBC
-### Week 10
-No activities this week. This is the final week of the module, please use the session to complete the coursework.
+### Week 2 Data preparation
+
+### Week 3 Data preparation and visualisation
+
+### Week 4 Database design and creation using Python sqlite3
+
+### Week 5 Database design and creation using Python sqlite3 continued; linting
+
+### Week 6 Requirements analysis, wireframes
+
+### Week 7 Application design
+
+### Week 8 Database design, database queries
+
+### Week 9 Unit testing with pytest and continuous integration using GitHub Actions
+
+### Week 10 Coursework support
+
+No new activities this week. This is the final week of the module, please use the session to complete the coursework.
+The course tutor and PGTAs will be in the usual tutorial rooms to answer any questions.
