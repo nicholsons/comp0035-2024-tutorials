@@ -26,7 +26,7 @@ activities and code.
 
 This will be updated each week with the activities for that week.
 
-### Week 1: Setting up a project in your IDE (VS Code, PyCharm) using source code control and python virtual environment
+### Week 1 Setting up a project in your IDE (VS Code, PyCharm) using source code control and python virtual environment
 
 - [Instructions for week 1](activities/week1/1-0-instructions.md)
 - [Create a repository on GitHub](activities/week1/1-1-create-repository-github.md)
@@ -38,9 +38,9 @@ This will be updated each week with the activities for that week.
 - [Create a virtual environment for a project in your IDE](activities/week1/1-7-create-virtual-environment.md)
 - [Synchronise changes between your local repository in your IDE and the remote repository on GitHub](activities/week1/1-8-synch-changes.md)
 
-### Week 2 Data preparation
+### Week 2 Data preparation using Python pandas
 
-### Week 3 Data preparation and visualisation
+### Week 3 Data preparation and visualisation using Python pandas and matplotlib
 
 ### Week 4 Database design and creation using Python sqlite3
 
