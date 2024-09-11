@@ -16,8 +16,9 @@ The `activities` folder contains the activity instructions for each week.
 The `src-student` package contains any starter code for each week. You can also use this package to store your own code
 that you create during the activities.
 
-The `src-tutor` package contains the tutor's completed example for each week. These will be released in the following
-week.
+One solution to the activities will be given each week and these are in a separate repository on
+GitHub: [tutor solution](). Other solutions will be possible, and some may be better than the solution offered, so don't
+feel your code has to match the tutors code!
 
 Activities and code are added each week. You will need to pull updates from the repository to get the latest
 activities and code.
