@@ -1,6 +1,6 @@
 # Basic project information
 [project]
-name = "comp0035-2024-tutorials"
+name = "comp0035-tutorials"
 version = "2024.0.1"
 
 # Most students will use setuptools, though poetry is also an option
@@ -10,10 +10,10 @@ build-backend = "setuptools.build_meta"
 
 # Setuptools configuration see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#setuptools-specific-configuration
 [tool.setuptools.packages.find]
-where = ["src", "src-tutor"] # this is required becuase we have a src directory that is not a package, so packages are not in the root directory and setuptools will not auto discover the,m
+where = ["src"] # this is required becuase we have a src directory that is not a package, so packages are not in the root directory and setuptools will not auto discover the,m
 exclude = ["activities"]  # exclude packages matching these glob patterns (empty by default)
 
 # Setuptools configuration for the data files see https://setuptools.pypa.io/en/stable/userguide/datafiles.html
 [tool.setuptools.package-data]
-src = ["*.csv", "*.xlsx"]
-""
+# src = ["*.csv", "*.xlsx"]  # include all csv and xlsx files in the src directory
+"tutorialpkg.data" = ["*.csv", "*.xlsx"]  # include all csv and xlsx files in the tutorialpkg/data directory

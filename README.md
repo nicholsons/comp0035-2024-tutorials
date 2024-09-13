@@ -41,6 +41,8 @@ This will be updated each week with the activities for that week.
 
 ### Week 2 Data preparation using Python pandas
 
+- [Instructions for week 2](activities/week2/2-0-instructions.md)
+
 ### Week 3 Data preparation and visualisation using Python pandas and matplotlib
 
 ### Week 4 Database design and creation using Python sqlite3
