@@ -1,5 +1,5 @@
-﻿type,year,country,host,start,end,duration,disabilities_included,countries,events,sports,participants_m,participants_f,participants,highlights,URL
-summer,1960,Italy,Rome,18/09/1960,25/09/1960,7,Spinal injury,23,113,8,,,209,First Games with a disability held in same venues as Olympic Games,https://www.paralympic.org/rome-1960
+type,year,country,host,start,end,duration,disabilities_included,countries,events,sports,participants_m,participants_f,participants,highlights,URL
+Summer,1960,Italy,Rome,18/09/1960,25/09/1960,7,Spinal injury,23,113,8,,,209,First Games with a disability held in same venues as Olympic Games,https://www.paralympic.org/rome-1960
 summer,1964,Japan,Tokyo,08/11/1964,12/11/1964,4,Spinal injury,21,143,9,195,71,266,Weightlifting added as a sport,https://www.paralympic.org/tokyo-1964
 summer,1968,Israel,Tel Aviv,05/11/1968,14/11/1968,9,Spinal injury,29,188,10,578,196,774,Lawn Bowls added as a sport,https://www.paralympic.org/tel-aviv-1968
 summer,1972,Germany,Heidelberg,02/08/1972,11/08/1972,9,Spinal injury,43,188,10,654,268,922,First quadraplegic competition added. Demonstration events for vision impaired athletes,https://www.paralympic.org/heidelberg-1972
@@ -17,7 +17,7 @@ summer,2016,Brazil,Rio,07/09/2016,18/09/2016,11,"Spinal injury, Amputee, Vision 
 summer,2020,Japan,Tokyo,24/08/2021,05/09/2021,12,"Spinal injury, Amputee, Vision Impairment, Cerebral Palsy, Les Autres, Intellectual Disability",162,539,22,2547,1846,4393,Para badminton and Para taekwondo were added to the Paralympic programme for the first time.,https://www.paralympic.org/tokyo-2020
 summer,2024,France,Paris,28/08/2024,08/09/2024,12,"Spinal injury, Amputee, Vision Impairment, Cerebral Palsy, Les Autres, Intellectual Disability",169,549,22,2551,2016,4567,First summer games in France. The first time the Paralympic Opening Ceremony was held outside of a stadium,https://www.paralympic.org/paris-2024
 summer,2028,USA,Los Angeles,15/08/2028,27/08/2028,12,"Spinal injury, Amputee, Vision Impairment, Cerebral Palsy, Les Autres, Intellectual Disability",,,22,,,,,https://www.paralympic.org/la-2028
-winter,1976,Sweden,Ornskoldsvik,21/02/1976,28/02/1976,7,Spinal injury,16,53,2,161,37,198,Demonstration event: Sledge Racing,https://www.paralympic.org/ornskoldsvik-1976
+winter ,1976,Sweden,Ornskoldsvik,21/02/1976,28/02/1976,7,Spinal injury,16,53,2,161,37,198,Demonstration event: Sledge Racing,https://www.paralympic.org/ornskoldsvik-1976
 winter,1980,Norway,Geilo,02/02/1980,08/02/1980,6,"Spinal injury, Amputee, Vision Impairment, Les Autres",18,64,2,229,70,299,Demonstration event: Downhill Sledge Racing,https://www.paralympic.org/geilo-1980
 winter,1984,Austria,Innsbruck,15/01/1984,21/01/1984,6,"Spinal injury, Amputee, Vision Impairment, Cerebral Palsy, Les Autres",21,107,3,325,94,419,Demonstration event at Olympics in Sarajevo: Giant Slalom.,https://www.paralympic.org/innsbruck-1984
 winter,1988,Austria,Innsbruck,18/01/1988,25/01/1988,7,"Spinal injury, Amputee, Vision Impairment, Cerebral Palsy, Les Autres",22,97,4,300,77,377,Sit-Ski events introduced in the sports of Alpine and Nordic Skiing,https://www.paralympic.org/innsbruck-1988
