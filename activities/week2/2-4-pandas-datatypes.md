@@ -27,7 +27,6 @@ country                   object
 host                      object
 start                     object
 end                       object
-duration                   int64
 disabilities_included     object
 countries                float64
 events                   float64

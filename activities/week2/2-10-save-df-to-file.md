@@ -15,4 +15,4 @@ See [pandas output methods](https://pandas.pydata.org/docs/reference/io.html#).
 
 2. Run the code and check that the file is saved to 'src/tutorialpkg/data/paralympics_events_prepared.csv'
 
-[Further practice](2-10-further-practice.md)
+[Further practice](2-11-further-practice)

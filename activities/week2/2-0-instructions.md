@@ -83,12 +83,19 @@ so it is a good practice to start out working that way.
 Tutorial activities can be found in the activities/week2 folder. These are:
 
 1. [Create a package and module](2-1-python-structure.md)
-2. [Use pandas to open .csv and .xlsx files and create a DataFrame](2-2-pandas-open.md)
-3. [Use pandas to describe the dataframe](2-3-pandas-describe.md)
-4. [Use pandas to change data types](2-4-pandas-datatypes.md)
-5. [Use pandas to combine dataframes](2-5-pandas-joining-dataframes.md)
-6. [Use pandas to deal with missing values](2-7-pandas-missing-values)
-7. [Use pandas to delete columns](2-6-pandas-removing-columns)
+2. [Open .csv and .xlsx files and create a DataFrame](2-2-pandas-open.md)
+3. [Describe the dataframe](2-3-pandas-describe.md)
+4. [Change data types](2-4-pandas-datatypes.md)
+5. [Combine dataframes](2-5-pandas-joining-dataframes.md)
+6. [Remove columns](2-6-pandas-removing-columns.md)
+7. [Deal with missing values](2-7-pandas-missing-values)
+8. [Columns with categorical values](2-8-pandas-categorical-data.md)
+9. [Add new column](2-9-pandas-new-column.md)
+10. [Save prepared data to .csv](2-10-save-df-to-file.md)
+11. [Suggestions for further practice](2-11-further-practice)
+
+Note: The activities in week 2 and week 3 are not evenly balanced, with less in week 3. If you do not finish in the week
+tutorial time, you may want to continue these next week.
 
 ## Apply the knowledge to your coursework project
 
@@ -98,7 +105,8 @@ started this week here are some suggestions of what to do:
 - Install pandas and openpyxl in the virtual environment of your courswork project in your IDE.
 - Use pandas to read the data into a dataframe.
 - Write code to describe the dataframe contents e.g. size, column names, datatypes, statistics.
-- Check your code meets with Python PEP8 style conventions. Hint: Use the `flake8` Python package to check your code.
+- Write code to prepare the dataframe contents for your project e.g. consider missing values, unique values in columns,
+  data types etc
 
 Do some extra research. There are many tutorials publicly available that focus on data preparation with pandas. Try to
 find examples that do more that has been covered in this tutorial to expand your knowledge.
