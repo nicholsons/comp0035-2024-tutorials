@@ -1,0 +1,33 @@
+type,year,country,host,start,end,duration,countries,events,sports,participants_m,participants_f,participants,Code
+Summer,1960,Italy,Rome,18/09/1960,25/09/1960,7,23,113,8,,,209,ITA
+summer,1964,Japan,Tokyo,08/11/1964,12/11/1964,4,21,143,9,195,71,266,JPN
+summer,1968,Israel,Tel Aviv,05/11/1968,14/11/1968,9,29,188,10,578,196,774,ISR
+summer,1972,Germany,Heidelberg,02/08/1972,11/08/1972,9,43,188,10,654,268,922,GER
+summer,1976,Canada,Toronto,04/08/1976,12/08/1976,8,40,448,13,1000,271,1271,CAN
+summer,1980,Netherlands,Arnhem,22/06/1980,01/07/1980,9,43,590,13,1225,428,1653,NED
+summer,1984,"Great Britain, United States of America","Stoke Mandeville, New York",17/06/1984,01/08/1984,45,58,975,18,1569,536,2105,"GBR, USA"
+summer,1988,Republic of Korea,Seoul,16/10/1988,25/10/1988,9,60,733,18,2370,671,3041,KOR
+summer,1992,Spain,Barcelona,05/09/1992,16/09/1992,11,83,489,16,2300,699,2999,ESP
+summer,1996,United States of America,Atlanta,16/08/1996,25/08/1996,9,104,519,19,2462,790,3252,USA
+summer,2000,Australia,Sydney,23/10/2000,31/10/2000,8,123,550,19,2883,988,3871,AUS
+summer,2004,Greece,Athens,23/09/2004,04/10/2004,11,135,519,19,2600,1149,3749,GRE
+summer,2008,People's Republic of China,Beijing,06/09/2008,17/09/2008,11,146,472,20,2585,1366,3951,CHN
+summer,2012,Great Britain,London,29/08/2012,09/09/2012,11,164,530,20,2741,1502,4243,GBR
+summer,2016,Brazil,Rio,07/09/2016,18/09/2016,11,160,528,22,2657,1670,4327,BRA
+summer,2020,Japan,Tokyo,24/08/2021,05/09/2021,12,162,539,22,2547,1846,4393,JPN
+summer,2024,France,Paris,28/08/2024,08/09/2024,11,169,549,22,2551,2016,4567,FRA
+summer,2028,USA,Los Angeles,15/08/2028,27/08/2028,12,,,22,,,,USA
+winter,1976,Sweden,Ornskoldsvik,21/02/1976,28/02/1976,7,16,53,2,161,37,198,SWE
+winter,1980,Norway,Geilo,02/02/1980,08/02/1980,6,18,64,2,229,70,299,NOR
+winter,1984,Austria,Innsbruck,15/01/1984,21/01/1984,6,21,107,3,325,94,419,AUT
+winter,1988,Austria,Innsbruck,18/01/1988,25/01/1988,7,22,97,4,300,77,377,AUT
+winter,1992,France,Tignes-Albertville,25/03/1992,02/04/1992,8,24,79,3,288,77,365,FRA
+winter,1994,Norway,Lillehammer,10/03/1994,19/03/1994,9,31,133,5,39,90,129,NOR
+winter,1998,Japan,Nagano,07/03/1998,16/03/1998,9,31,122,5,440,122,562,JPN
+winter,2002,United States of America,Salt Lake City,09/03/2002,18/03/2002,9,36,92,4,328,87,415,USA
+winter,2006,Italy,Torino,12/03/2006,21/03/2006,9,38,58,5,375,99,474,ITA
+winter,2010,Canada,Vancouver,12/03/2010,21/03/2010,9,44,64,5,381,121,502,CAN
+winter,2014,Russian Federation,Sochi,07/03/2014,16/03/2014,9,45,72,6,411,129,540,RUS
+winter,2018,Republic of Korea,PyeongChang,09/03/2018,18/03/2018,9,49,80,6,430,133,563,KOR
+winter,2022,People's Republic of China,Beijing,04/03/2022,13/03/2022,9,46,78,6,422,136,558,CHN
+winter,2026,Italy,Milano Cortina,06/03/2026,15/03/2026,9,,79,6,,,,ITA

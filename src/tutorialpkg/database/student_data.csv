@@ -1,0 +1,6 @@
+﻿record_id,teacher_name,teacher_email,student_name,student_email,course_name,course_code,course_schedule,course_location
+1,John Smith,john.smith@school.com,Alice Brown,alice.brown@school.com,Mathematics,MATH101,Mon-Wed-Fri 9am,Room 101
+2,John Smith,john.smith@school.com,Bob Green,bob.green@school.com,Mathematics,MATH101,Mon-Wed-Fri 9am,Room 101
+3,Jane Doe,jane.doe@school.com,Alice Brown,alice.brown@school.com,Physics,PHYS201,Tue-Thu 11am,Room 202
+4,Jane Doe,jane.doe@school.com,Charlie White,charlie.white@school.com,Physics,PHYS201,Tue-Thu 11am,Room 202
+5,Mark Taylor,mark.taylor@school.com,Bob Green,bob.green@school.com,Chemistry,CHEM301,Mon-Wed 2pm,Room 303
