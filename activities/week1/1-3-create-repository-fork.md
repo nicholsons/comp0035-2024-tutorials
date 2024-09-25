@@ -27,7 +27,7 @@ Go to the [nicholsons/comp0035-2024-tutorials](https://github.com/nicholsons/com
 **IMPORTANT**: This repository will be updated weekly with new activities. You should pull these changes into your forked
 repository to keep it up to date. Use the 'Sync fork' button.
 
-![Sync fork](../img/gh-sync-fork.png)
+![Sync fork](../img/gh-synch-fork.png)
 
 If there have been changes, you will see a message showing the branch is out of date. Select the green 'Update branch' button.
 
