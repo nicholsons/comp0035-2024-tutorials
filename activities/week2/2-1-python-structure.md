@@ -261,6 +261,21 @@ else:
     print("CSV file not found.")
 ```
 
+An alternative approach that is available from Python v10 onwards is
+the [method recommended in the setuptools guide](https://setuptools.pypa.io/en/stable/userguide/datafiles.html#accessing-data-files-at-runtime).
+
+This uses the [
+`importlib.resources` package](https://docs.python.org/3.11/library/importlib.resources.html#module-importlib.resources)
+from Python.
+
+This assumes that you installed the tutorial package using `pip install -e .`
+
+```python
+from importlib.resources import files
+
+paralympics_datafile_csv = files("tutorialpkg.data").joinpath("paralympics_events_prepared.csv")
+```
+
 ## Activities
 
 1. Open [mymodule1.py](../../src/tutorialpkg/mypkg1/mymodule1.py)
@@ -279,7 +294,6 @@ else:
     ```
 3. Add code to locate the data file `paralmpics_raw.csv` relative to the code file `mymodule1.py` using `pathlib.Path`.
    Prove it exists.
-
 
 [Go to activity 2.2](2-2-pandas-open.md)
 

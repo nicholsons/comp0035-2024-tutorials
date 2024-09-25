@@ -28,7 +28,7 @@ This activity is a quick introduction. Linting is covered again later in the cou
 ## Finding issues using a linter
 
 1. Install two linters in your virtual environment: `pip install flake8 pylint`
-2. Lint the file in [`tutorialpkg/code_to_lint.py`](../../src/tutorialpkg/code_to_lint.py) with flake8:
+2. Lint the file in [`tutorialpkg/code_to_lint.py`](../../src/tutorialpkg/sample_code/code_to_lint.py) with flake8:
    `flake8 src/tutorialpkg/code_to_lint.py`
 3. Lint the same file using pylint: `pylint src/tutorialpkg/code_to_lint.py`
 4. Note that the two linters report slightly different issues

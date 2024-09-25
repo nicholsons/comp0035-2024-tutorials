@@ -1,4 +1,4 @@
-# COMP0035 Tutorial 4: Database design
+# COMP0035 Tutorial 5: Creating databases with Python sqlite3
 
 ## Pre-requisites
 
@@ -47,27 +47,34 @@ The following screenshot shows this in PyCharm on macOS:
 
 If you are not in a venv, refer to [Week 1 activity 7](../week1/1-7-create-virtual-environment.md) for instructions.
 
+## Configure your IDE to work with database
+
+If you are using PyCharm Professional version (free with student id) you do not need to install anything further to
+enable it to work with databases.
+
+If you are using VS Code, you will need to add the following extensions to work with SQLite files:
+
+- [SQlite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
+- [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer)
+
 ## Complete the activities
 
-Use the version of the data files in the `data_db_activity` directory for these activities. A change has been made to the '
-summer 1984' row in the data for this activity.
+Use the version of the data files in the `data_db_activity` directory for these activities.
 
-Tutorial activities can be found in the activities/week4 folder. These are:
+Tutorial activities can be found in the activities/week5 folder. These are:
 
-1. [Introduction to database design and ERD (lecture recap)](4-1-database-design.md)
-2. [Design and draw an Entity Relationship Diagram (ERD) for a database normalised to 3rd normal form (3NF)](4-2-ERD.md)
-3. [Design and draw an Entity Relationship Diagram (ERD) for a database normalised to 3rd normal form (3NF) - part 2](4-3-ERD-part2.md)
-4. [Data constraints and UPDATE/DELETE actions](4-4-constraints.md)
-5. [Further practice/information](4-5-further-practice.md)
+1. [Introduction: Using Python sqlite3 and pandas to create SQLite databases](5-1-introduction.md)
+2. [Create an un_normalised database from a pandas dataframe](5-2-create-studentdb-unnormalised.md)
+3. [Create the structure for a normalised database using SQL, sqlite3 and pandas dataframe](5-3-studentdb-normalised-structure.md)
+4. [Introduction to SQL SELECT for finding values from a table](5-4-select-query.md)
+5. [Introduction to SQL INSERT for adding values to a table](5-5-insert-query.md)
+6. [Add data to the normalised database](5-6-studentdb-normalised-add-data.md)
+7. [Apply the knowledge to create the paralympics database](5-7-create-paralympics-db.md)
 
 ## Apply the knowledge to your coursework project
 
-As a third year module, the coursework is not meant to be a series of instructions to follow. However, to get you
-started this week here are some suggestions of what to do:
-
-- Draw an ERD for your data set. Start with a single table then look for any issues that break the rules for
-  normalisation up to the third normal form.
--
+- Define and create the structure for the database
+- Add data to the database from your prepared data set
 
 Do some extra research. There are many tutorials publicly available that focus on data preparation and exploration with
 pandas. Try to find examples that do more that has been covered in this tutorial to expand your knowledge.

@@ -65,7 +65,7 @@ ax = df.plot(title='Sample Plot', xlabel='X-axis Label', ylabel='Y-axis Label')
 plt.show()
 ```
 
-You can run this example in [sample_plot.py](../../src/tutorialpkg/sample_plot.py) in your own IDE.
+You can run this example in [sample_plot.py](../../src/tutorialpkg/sample_code/sample_plot.py) in your own IDE.
 
 In VS Code the chart usually displays in a separate pop-out window. You need to close this window before running the
 code again.

@@ -128,7 +128,8 @@ Code) that can be used to generate diagrams.
 
 Further, chatGPT and CoPilot can give suggestions and draw diagrams based on an uploaded data file.
 
-In [copilot](https://copilot.microsoft.com) try entering the prompt `Draw an ERD for the data in the attached csv file` and attach the `src/tutorialpkg/database/student_data.csv` file to it.
+In [copilot](https://copilot.microsoft.com) try entering the prompt `Draw an ERD for the data in the attached csv file`
+and attach the `src/tutorialpkg/data_db_activity/student_data.csv` file to it.
 
 Note that the diagram format below given by copilot _is not_ good enough for the coursework!
 
@@ -162,8 +163,55 @@ to do this:
 
 In the Mermaid or Lucid GPT try `Draw an entity relationship diagram that is normalised to 3NF for the attached data`
 
-This gave the Mermaid code as well as the ERD as a downloadable image.
+On previous occasions this has returned the mermaid syntax for the ERD as well as a well formatted ERD. However on this
+occasion the diagram is again not suitable for the coursework.
 
+![Mermaid GPT drawn ERD](../img/erd-mermaid-gpt-school.png)
 
+This gave the following response:
+
+The provided data contains the following columns:
+
+- record_id: A unique identifier for each record.
+- teacher_name: The name of the teacher.
+- teacher_email: The teacher's email.
+- student_name: The name of the student.
+- student_email: The student's email.
+- course_name: The name of the course.
+- course_code: The unique code for the course.
+- course_schedule: The schedule of the course (days and time).
+- course_location: The location where the course is held.
+
+Analysis for Normalization:
+
+- 1NF (First Normal Form): The data is in 1NF since all columns contain atomic values (no repeating groups or
+  multivalued attributes).
+- 2NF (Second Normal Form): To achieve 2NF, the table must first be in 1NF, and all non-key attributes should depend on
+  the entire primary key. The current data appears to have a partial dependency (e.g., student details depending only on
+  student name, teacher details on teacher name, etc.).
+- 3NF (Third Normal Form): To achieve 3NF, the table must be in 2NF, and there should be no transitive dependency (i.e.,
+  no non-key attribute should depend on another non-key attribute).
+
+Normalization Approach:
+
+Entities:
+
+- Teacher: teacher_id, teacher_name, teacher_email
+- Student: student_id, student_name, student_email
+- Course: course_id, course_name, course_code, course_schedule, course_location
+- Enrollment: This links students to courses and teachers. enrollment_id, student_id, course_id, teacher_id
+
+Let me now draw an ER diagram based on this normalized structure.
+
+Here is the Entity Relationship (ER) Diagram, normalized to Third Normal Form (3NF). It includes four entities:
+
+- Teacher: Attributes are teacher_id, teacher_name, and teacher_email.
+- Student: Attributes are student_id, student_name, and student_email.
+- Course: Attributes are course_id, course_name, course_code, course_schedule, and course_location.
+- Enrollment: This serves as the relationship table linking students to courses and teachers. It includes enrollment_id,
+  student_id, course_id, and teacher_id.
+
+- Each entity contains only the relevant attributes, eliminating redundancies. The relationships between students,
+  teachers, and courses are managed through the Enrollment entity.
 
 [Next activity](4-2-ERD.md)

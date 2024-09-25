@@ -48,6 +48,3 @@ if __name__ == '__main__':
 
     # Save boxplot to .png file
     df_another_sample = pd.DataFrame(np.random.rand(10, 5), columns=["A", "B", "C", "D", "E"])
-    # save_sample_boxplot(df_another_sample)
-
-

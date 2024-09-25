@@ -15,5 +15,4 @@ exclude = ["activities"]  # exclude packages matching these glob patterns (empty
 
 # Setuptools configuration for the data files see https://setuptools.pypa.io/en/stable/userguide/datafiles.html
 [tool.setuptools.package-data]
-# src = ["*.csv", "*.xlsx"]  # include all csv and xlsx files in the src directory
-"tutorialpkg.data" = ["*.csv", "*.xlsx"]  # include all csv and xlsx files in the tutorialpkg/data directory
+tutorialpkg = ["*.csv", "*.xlsx"]  # include all csv and xlsx files in the tutorialpkg package
