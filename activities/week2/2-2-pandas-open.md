@@ -1,12 +1,23 @@
 # Activity 2.1: Use pandas to open .csv and .xlsx files and create a DataFrame
 
-## Read: Data
+## Read: Data and questions
 
 The data in the activities is from the following
 source: [Paralympic medals and event info](https://www.paralympic.org/london-2012/results/medalstandings)
 
-The data is saved in the `paralympics_raw.csv` file. The data has been modified such that it can be used for a
-data cleaning activity.
+The data is saved in the `paralympics_raw.csv` file. Some data quality issues have been introduced such that it can be
+used for the tutorial activities.
+
+In weeks 2 and 3 you will be describing and exploring a dataset and then preparing it for used in a scenario.
+
+The scenario is that you are preparing the data for use in a dashboard web application for high school students ('target
+audience'). The typical questions they are interested in:
+
+- where in the world have paralympic events have been held?
+- when have the events been held? (dates)
+- how have the number of sports and events included changed over time?
+- what are the trends in participant numbers over time? How does this vary by gender? How does this vary by winter and
+  summer events?
 
 ## Activity: Structuring code in packages, modules and functions
 
@@ -61,8 +72,9 @@ please refer to the [pandas documentation](https://pandas.pydata.org/docs/refere
 ## Activity: Read .csv and .xlsx into a DataFrame
 
 There are two data files in the `src/tutorialpkg/data/` directory:
-   - [paralympics_events_raw.csv - a .csv file with data about paralympic events](../../src/tutorialpkg/data/paralympics_events_raw.csv)
-   -  [paralympics_all_raw.xlsx - an Excel file with 2 worksheets, the first with the data about paralympic events, the second with the medal tables of the competing teams](../../src/tutorialpkg/data/paralympics_all_raw.xlsx)
+
+- [paralympics_events_raw.csv - a .csv file with data about paralympic events](../../src/tutorialpkg/data/paralympics_events_raw.csv)
+- [paralympics_all_raw.xlsx - an Excel file with 2 worksheets, the first with the data about paralympic events, the second with the medal tables of the competing teams](../../src/tutorialpkg/data/paralympics_all_raw.xlsx)
 
 You will need to use a different Pandas function for each type of file:
 
@@ -103,8 +115,5 @@ import, setting data types for columns, etc. Use the above linked references for
    `ImportError: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.` - you forgot to install
    openpyxl which is needed to read an Excel file. Install it in the virtual environment using `pip install openpyxl`
 6. Optional stretch: Add error handing to the filepath
-
-
-
 
 [Go to activity 2.3](2-3-pandas-describe.md)
