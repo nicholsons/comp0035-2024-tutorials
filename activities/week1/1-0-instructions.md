@@ -2,9 +2,10 @@
 
 ## Pre-requisites
 
-You must have completed the following before attending the tutorial.
+You must have completed the following before attending the tutorial. There will not be sufficient time to do this in the
+session.
 
-There will not be sufficient time to do this in the session.
+The guidance is on Moodle and [in this repository](0-computer_setup_comp0035.md).
 
 1. Check that you have installed:
     - Python
@@ -80,7 +81,7 @@ Once you have completed the tutorial activities, you should be able to carry out
 repository in GitHub and create a project in your IDE that clones the repository.
 
 1. Accept the GitHub Classroom assignment for the coursework. This will create a remote repository in the ucl-comp0035
-   organisation. 
+   organisation.
 
    TODO: Add link to GitHub Classroom assignment.
 
@@ -111,7 +112,8 @@ should explore.
 
 ### Merge conflicts
 
-Merge conflicts can, and will, arise when two people edit the same line of code. This is called a merge conflict. To
+Merge conflicts can, and will, arise when two people edit the same line of code. They can also arise where you edit the
+same file in more than one location, e.g. directly on GitHub and in your IDE. This is called a merge conflict. To
 resolve it you will need to decide which version of the line, or lines, of code to keep.
 
 The guidance for how to do this is specific to each IDE:
