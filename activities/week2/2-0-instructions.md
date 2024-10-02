@@ -1,4 +1,20 @@
-# COMP0035 Tutorial 2: Data preparation using Python pandas
+# Tutorial 2: Instructions
+
+## Introduction
+
+In this tutorial and the next you will use pandas to explore a dataset by understanding what it contains.
+
+You will try also identify any problems with the data that need to be addressed ('cleaned'); and consider whether the
+data is sufficient for your project.
+
+You will write code in a way that is potentially reusable in an application, with considerations such as:
+
+- creating a relevant Python module
+- using relative filepaths to access data files
+- creating Python functions, rather than a simple sequence of commands (procedural)
+
+Writing code in this way may seem unnecessary at this stage, however you will be expected to do this for the coursework
+so it is a good practice to start out working that way.
 
 ## Pre-requisites
 
@@ -61,22 +77,6 @@ The default installation of pandas can only open Excel `.xlsx` files with an add
 if this is installed.
 
 You can install these using `pip` e.g.  `pip install pandas openpyxl`
-
-## Introduction
-
-In this tutorial and the next you will use pandas to explore a dataset by understanding what it contains.
-
-You will try also identify any problems with the data that need to be addressed ('cleaned'); and consider whether the
-data is sufficient for your project.
-
-You will write code in a way that is potentially reusable in an application, with considerations such as:
-
-- creating a relevant Python module
-- using relative filepaths to access data files
-- creating Python functions, rather than a simple sequence of commands (procedural)
-
-Writing code in this way may seem unnecessary at this stage, however you will be expected to do this for the coursework
-so it is a good practice to start out working that way.
 
 ## Complete the activities
 

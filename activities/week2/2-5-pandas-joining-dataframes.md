@@ -1,4 +1,4 @@
-# Joining dataframes
+# Activity 2.5: Joining dataframes
 
 In the medal_standings DataFrame there is a field called 'NPC' which contains the three-letter codes used by the
 National Paralympic Committee (NPC) to describe a team. The teams are usually countries such as "China", or a construct,

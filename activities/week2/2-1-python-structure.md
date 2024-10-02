@@ -1,4 +1,4 @@
-# Python applications: repository structure
+# Activity 2.1: Python applications: repository structure
 
 **5 mins to read, 5 mins to code**
 

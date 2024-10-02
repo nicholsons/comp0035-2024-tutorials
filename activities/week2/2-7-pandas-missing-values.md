@@ -1,4 +1,4 @@
-# Dealing with missing values
+# Activity 2.7: Dealing with missing values
 
 Missing values or missing data are those values that are not present in the data set.
 

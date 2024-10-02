@@ -1,4 +1,4 @@
-# Working with categorical data
+# Activity 2.8: Working with categorical data
 
 Categorical variables are those where the data can be divided into categories, or groups. For example: race, gender, age
 group, and educational level.

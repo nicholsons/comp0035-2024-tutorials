@@ -1,6 +1,4 @@
-from typing import List
-
-# Changing datatypes
+# Activity 2.4: Changing datatypes
 
 This activity moves on from describing the dataframe to changing its contents to suit our purposes, this is something
 referred to as 'data preparation' or 'data cleaning'.

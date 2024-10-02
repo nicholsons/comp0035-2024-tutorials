@@ -1,4 +1,4 @@
-# Activity 2.1: Use pandas to open .csv and .xlsx files and create a DataFrame
+# Activity 2.2: Use pandas to open .csv and .xlsx files and create a DataFrame
 
 ## Read: Data and questions
 

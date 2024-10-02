@@ -1,4 +1,4 @@
-# Removing columns
+# Activity 2.6: Removing columns
 
 In the function to describe the events dataframe you printed all the column names:
 
