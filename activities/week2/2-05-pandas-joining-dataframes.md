@@ -124,4 +124,4 @@ To match the values in the columns 'country' and 'Name' needed to be identical. 
 
 Dealing with NaNs and Nulls is covered in a later activity.
 
-[Next activity](2-6-pandas-removing-columns.md)
+[Next activity](2-06-pandas-removing-columns)

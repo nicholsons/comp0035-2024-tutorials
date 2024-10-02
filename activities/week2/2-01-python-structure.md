@@ -295,9 +295,9 @@ paralympics_datafile_csv = files("tutorialpkg.data").joinpath("paralympics_event
 3. Add code to locate the data file `paralmpics_raw.csv` relative to the code file `mymodule1.py` using `pathlib.Path`.
    Prove it exists.
 
-[Go to activity 2.2](2-2-pandas-open.md)
+[Go to activity 2.2](2-02-pandas-open)
 
-# Sources of information
+## Further information
 
 [The Hitchhiker's Guide to Python: Structuring your project](https://docs.python-guide.org/writing/structure/)
 

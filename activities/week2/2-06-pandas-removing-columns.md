@@ -54,4 +54,4 @@ Also note the axis number. Rows in a DataFrame are `axis=0` and columns are `axi
    `df_prepared`.
 2. You might also want to add a print of the column names again so you can check the columns were removed. Run the code.
 
-[Next activity](2-7-pandas-missing-values.md)
+[Next activity](2-07-pandas-missing-values)

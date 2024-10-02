@@ -28,4 +28,4 @@ This issue occurs in the paralympics event data in the `type` column.
    Use ['.str.lower()' function](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.lower.html#pandas.Series.str.lower)
    .
 
-[Next activity](2-9-pandas-new-column.md)
+[Next activity](2-09-pandas-new-column)

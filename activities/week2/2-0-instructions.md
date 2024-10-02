@@ -82,15 +82,15 @@ You can install these using `pip` e.g.  `pip install pandas openpyxl`
 
 Tutorial activities can be found in the activities/week2 folder. These are:
 
-1. [Create a package and module](2-1-python-structure.md)
-2. [Open .csv and .xlsx files and create a DataFrame](2-2-pandas-open.md)
-3. [Describe the dataframe](2-3-pandas-describe.md)
-4. [Change data types](2-4-pandas-datatypes.md)
-5. [Combine dataframes](2-5-pandas-joining-dataframes.md)
-6. [Remove columns](2-6-pandas-removing-columns.md)
-7. [Deal with missing values](2-7-pandas-missing-values)
-8. [Columns with categorical values](2-8-pandas-categorical-data.md)
-9. [Add new column](2-9-pandas-new-column.md)
+1. [Create a package and module](2-01-python-structure)
+2. [Open .csv and .xlsx files and create a DataFrame](2-02-pandas-open)
+3. [Describe the dataframe](2-03-pandas-describe)
+4. [Change data types](2-04-pandas-datatypes)
+5. [Combine dataframes](2-05-pandas-joining-dataframes)
+6. [Remove columns](2-06-pandas-removing-columns)
+7. [Deal with missing values](2-07-pandas-missing-values)
+8. [Columns with categorical values](2-08-pandas-categorical-data)
+9. [Add new column](2-09-pandas-new-column)
 10. [Save prepared data to .csv](2-10-save-df-to-file.md)
 11. [Suggestions for further practice](2-11-further-practice)
 

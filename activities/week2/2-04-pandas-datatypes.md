@@ -120,4 +120,4 @@ An `iloc` method exists but is deprecated.
 
    See [Python datetime for the format codes](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes).
 
-[Go to next activity](2-5-pandas-joining-dataframes.md)
+[Go to next activity](2-05-pandas-joining-dataframes)

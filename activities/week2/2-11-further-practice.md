@@ -1,4 +1,4 @@
-# Further practice
+# Activity 2.11: Further practice (optional)
 
 1. Apply the principles to the 'medal_standings' dataframe, e.g.:
 
