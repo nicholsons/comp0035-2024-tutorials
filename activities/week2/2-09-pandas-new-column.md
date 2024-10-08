@@ -7,7 +7,7 @@ date: `df[duration] = df['end'] - df['start']`.
 
 1. Edit the code to create the new field.
 2. If you run the code now, the new field will be appended to the end of the columns. Instead, insert it after the 'end'
-   column e.g. `df.insert(df.columns.get_loc('end'), 'duration', df['end'] - df['start']).dt.days.astype(int)`
+   column e.g. `df.insert(df.columns.get_loc('end'), 'duration', df['end'] - df['start']).duration.dt.days.astype(int)`
 
    The code will place the duration column right before the end column:
     - `df.columns.get_loc('end')`: Finds the index of the 'end' column. You then need to add 1 to this to place the

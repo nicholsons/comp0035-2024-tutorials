@@ -10,7 +10,7 @@ In the function to describe the events dataframe you printed all the column name
 Assume that the 'URL', 'disabilities_included' and 'highlights' columns aren't going to be needed in the project for
 creating charts, so remove them.
 
-One approach to avoid unnecessary columns it to read only the columns you need when you create the DataFrame using the
+One approach to avoid unnecessary columns is to read only the columns you need when you create the DataFrame using the
 `usecols` parameter. For example:
 
 ```python
