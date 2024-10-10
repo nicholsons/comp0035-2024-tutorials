@@ -76,7 +76,7 @@ plt.show()
    `boxplot(subplots=True, sharey=False)`
    method.
 3. If you want to save the generated plot to an image file (you might wish to for the coursework, though not essential)
-   try: `plt.savefig('bp_example.png')`
+   try: `plt.savefig('bp_example.png')`. Note that you will have to add this line of code before `plt.show()`
 
 You should see an outlier in the duration. On examining the data you would find that this is because that year the
 Paralympics were in two locations, New York and Stoke Mandeville, and held on two different dates so the start and end

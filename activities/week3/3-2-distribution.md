@@ -33,8 +33,8 @@ the [.plot() reference](https://pandas.pydata.org/docs/reference/api/pandas.Data
     ```
 6. Run the code to generate the figure. It should generate a figure that has histograms for all the columns in the
    data.
-7. Modify the function to take just specified columns. You can add a second parameter, `columns`, and the modify line to
-   generate the histogram, e.gf. `df[columns].hist()`
+7. Modify the function to take just specified columns. You can add a second parameter, `columns`, and then modify the line to
+   generate the histogram, e.g. `df[columns].hist()`
 8. Run the code again to generate the figure.
 9. The distributions don't really tell you much in this dataset. It may be more useful for larger datasets. Challenge:
    create histograms for the winter and summer events.
