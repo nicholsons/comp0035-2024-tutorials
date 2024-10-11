@@ -11,9 +11,10 @@ def some_function(argument1):
         int:Returning value
  
      """
+     pass
 
 
 if __name__ == '__main__':
-    file_path = pathlib.Path(__file__)
-    file1 = pd.read_csv('data\paralympics_events_raw.csv')
-
+    file_path = pathlib.Path(__file__).parent.parent.joinpath("data","paralympics_events_raw.csv")
+    df = pd.read_csv(file_path)
+    print(df.head())
