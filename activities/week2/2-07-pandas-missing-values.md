@@ -1,4 +1,4 @@
-# Dealing with missing values
+# Activity 2.7: Dealing with missing values
 
 Missing values or missing data are those values that are not present in the data set.
 
@@ -113,4 +113,4 @@ In the data preparation function write code to address the missing values.
    the [Series.replace(to_replace=replacement_names) function](https://pandas.pydata.org/docs/reference/api/pandas.Series.replace.html#pandas.Series.replace).
 6. Run the data preparation code again and now there should not be any result from the functions to print the missing data.
 
-[Next activity](2-8-pandas-categorical-data.md)
+[Next activity](2-08-pandas-categorical-data)

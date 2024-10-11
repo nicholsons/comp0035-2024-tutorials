@@ -1,4 +1,4 @@
-# Activity 2.1: Use pandas to open .csv and .xlsx files and create a DataFrame
+# Activity 2.3: Use pandas to describe the contents of a DataFrame
 
 In this activity you will use some of the pandas functions to describe the contents of the DataFrames:
 
@@ -49,4 +49,4 @@ In this activity you will use some of the pandas functions to describe the conte
    for the two dataframes with the 'events' data should be the same, the 'medal_standings' dataframe info will be
    different.
 
-[Next activity](2-4-pandas-datatypes.md)
+[Next activity](2-04-pandas-datatypes)

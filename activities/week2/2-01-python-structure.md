@@ -1,4 +1,4 @@
-# Python applications: repository structure
+# Activity 2.1: Python applications: repository structure
 
 **5 mins to read, 5 mins to code**
 
@@ -98,6 +98,71 @@ my_python_project/
 │   └── test_module2.py
 ├── .venv/
 ```
+
+### Packaging python with pip, setuptools and pyproject.toml
+
+[Python packaging](https://packaging.python.org/en/latest/overview/) documents how to distribute your code as a package
+for others to install. You are not allowed to publish your coursework so will not distribute it as a package.
+
+However, the testing
+package, [pytest, recommends that you install your own package as code in editable mode](https://docs.pytest.org/en/7.1.x/explanation/goodpractices.html).
+This uses the same techniques and tools as packaging your code for use by others.
+
+There are several tools for packaging (some of which are also used for managing environments): `setuptools`, `poetry`.
+
+The tutorials use `setuptools` as this is included by default in your virtual environment (though you can use any other
+tool for the coursework).
+
+To install your own code you can use a combination of the `pip` package manager, `setuptools` a file called
+`pyproject.toml`.
+
+`pyproject.toml` is a file that is used to specify the build system requirements for the project to allow other
+developers to build and run your code. It can be used to manage dependencies, instead of requirements.txt, however it
+does more than 'requirements.txt' does.
+
+You will create a pyproject.toml file in the coursework project. there are many aspects that can be figured, a typical
+minimum for the coursework is:
+
+```toml
+# Basic project information
+[project]
+name = "hello-world-sample-project"
+version = "2024.0.0"
+
+# Most students will use setuptools, though poetry is also an option
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+# Setuptools configuration see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#setuptools-specific-configuration
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+include = ["my_package*"]  # package names should match these glob patterns (["*"] by default)
+exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns (empty by default)
+```
+
+More on [pyproject.toml here](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/).
+
+Packages are likely to include specific guidance for pyproject.toml. Initially you many need to refer to
+the [setuptools configuration](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html), and later in the
+course [pytest configuation](https://docs.pytest.org/en/6.2.x/customize.html#pyproject-toml).
+
+To use pyproject.toml to install your code in 'editable', or development, mode use the Terminal window and enter
+the command:
+
+```bash
+pip install -e .
+```
+
+Note that the '.' at the end of the command is the path to the directory containing the pyproject.toml file; in this
+case in the root of the project.
+
+> ACTION: use the `pip install -e .` command in the Terminal window of the 'practice' project.
+
+You should see a new hidden folder (`.egg-info`) is created that has information about the installed project:
+
+![.egg folder](../img/egg.png)
+
 
 ## Importing modules and functions
 
@@ -295,9 +360,9 @@ paralympics_datafile_csv = files("tutorialpkg.data").joinpath("paralympics_event
 3. Add code to locate the data file `paralmpics_raw.csv` relative to the code file `mymodule1.py` using `pathlib.Path`.
    Prove it exists.
 
-[Go to activity 2.2](2-2-pandas-open.md)
+[Go to activity 2.2](2-02-pandas-open)
 
-# Sources of information
+## Further information
 
 [The Hitchhiker's Guide to Python: Structuring your project](https://docs.python-guide.org/writing/structure/)
 

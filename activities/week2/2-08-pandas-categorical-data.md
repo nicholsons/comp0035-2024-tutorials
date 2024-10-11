@@ -1,4 +1,4 @@
-# Working with categorical data
+# Activity 2.8: Working with categorical data
 
 Categorical variables are those where the data can be divided into categories, or groups. For example: race, gender, age
 group, and educational level.
@@ -28,4 +28,4 @@ This issue occurs in the paralympics event data in the `type` column.
    Use ['.str.lower()' function](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.lower.html#pandas.Series.str.lower)
    .
 
-[Next activity](2-9-pandas-new-column.md)
+[Next activity](2-09-pandas-new-column)

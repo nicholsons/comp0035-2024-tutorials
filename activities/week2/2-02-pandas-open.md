@@ -1,4 +1,4 @@
-# Activity 2.1: Use pandas to open .csv and .xlsx files and create a DataFrame
+# Activity 2.2: Use pandas to open .csv and .xlsx files and create a DataFrame
 
 ## Read: Data and questions
 
@@ -116,4 +116,4 @@ import, setting data types for columns, etc. Use the above linked references for
    openpyxl which is needed to read an Excel file. Install it in the virtual environment using `pip install openpyxl`
 6. Optional stretch: Add error handing to the filepath
 
-[Go to activity 2.3](2-3-pandas-describe.md)
+[Go to activity 2.3](2-03-pandas-describe)

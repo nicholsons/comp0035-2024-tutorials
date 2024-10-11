@@ -655,6 +655,7 @@ cython_debug/
 
 # Project files
 activities/future-weeks/
+activities/md_to_pdf
 
 # Visual Studio Code
 .vscode/

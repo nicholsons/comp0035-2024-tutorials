@@ -1,6 +1,4 @@
-from typing import List
-
-# Changing datatypes
+# Activity 2.4: Changing datatypes
 
 This activity moves on from describing the dataframe to changing its contents to suit our purposes, this is something
 referred to as 'data preparation' or 'data cleaning'.
@@ -122,4 +120,4 @@ An `iloc` method exists but is deprecated.
 
    See [Python datetime for the format codes](https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes).
 
-[Go to next activity](2-5-pandas-joining-dataframes.md)
+[Go to next activity](2-05-pandas-joining-dataframes)
