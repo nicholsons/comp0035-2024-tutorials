@@ -72,8 +72,9 @@ Tutorial activities can be found in the activities/week3 folder. These are:
 2. [Plotting distributions using histograms](3-2-distribution)
 3. [Identifying outliers using boxplots](3-3-outliers.md)
 4. [Plotting timeseries](3-4-timeseries.md)
-5. [Check your code complies with Python style guides](3-6-lint)
-6. [Introduction to using gen-AI in COMP0035](3-7-aitools.md)
+5. [Styling plots](3-5-chart-styling.md)
+6. [Check your code complies with Python style guides](3-6-lint)
+7. [Introduction to using gen-AI in COMP0035](3-7-aitools.md)
 
 ## Apply the knowledge to your coursework project
 
