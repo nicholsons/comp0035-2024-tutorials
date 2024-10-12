@@ -26,4 +26,6 @@ if __name__ == '__main__':
     df3 = pd.read_excel(file_path2, sheet_name = "medal_standings")
     print(df3.head())
 
+    df3.to_csv('df3', index=False)
+
 
