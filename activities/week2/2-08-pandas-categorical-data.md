@@ -17,7 +17,7 @@ However, as they are spelt differently any functions to count, group etc. would 
 
 This issue occurs in the paralympics event data in the `type` column.
 
-1. In `main`, print unique values for the 'Type' column. A single column is a Series so you can
+1. In `main`, print unique values for the 'type' column. A single column is a Series so you can
    use [`df['ColName'].unique()`](https://pandas.pydata.org/docs/reference/api/pandas.Series.unique.html) or [
    `df['ColName'].value_counts()`](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html).
 2. In your data preparation function, remove the whitespace from the 'winter ' occurrence by stripping whitespace either
