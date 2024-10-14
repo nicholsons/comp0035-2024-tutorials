@@ -55,7 +55,9 @@ This will be updated each week with the activities for that week.
 2. [Plotting distributions using histograms](activities/week3/3-2-distribution)
 3. [Identifying outliers using boxplots](activities/week3/3-3-outliers.md)
 4. [Plotting timeseries](activities/week3/3-4-timeseries.md)
-5. [Check your code complies with Python style guides](activities/week3/3-6-lint)
+5. [Chart styling](activities/week3/3-5-chart-styling.md)
+6. [Check your code complies with Python style guides](activities/week3/3-6-lint)
+7. [Code AI](activities/week3/3-7-aitools.md)
 
 ### Week 4 Database design and creation using Python sqlite3
 [Week 4 instructions](activities/week4/4-0-instructions.md)
@@ -65,7 +67,7 @@ This will be updated each week with the activities for that week.
 4. [Data constraints and UPDATE/DELETE actions](activities/week4/4-4-constraints.md)
 5. [Further practice/information](activities/week4/4-5-further-practice.md)
 
-### Week 5 Database design and creation using Python sqlite3 continued; linting
+### Week 5 Database design and creation using Python sqlite3 continued
 [Week 5 instructions](activities/week5/5-0-instructions.md)
 1. [Introduction: Using Python sqlite3 and pandas to create SQLite databases](activities/week5/5-1-introduction.md)
 2. [Create an un_normalised database from a pandas dataframe](activities/week5/5-2-create-studentdb-unnormalised.md)
