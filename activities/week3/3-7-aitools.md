@@ -126,18 +126,16 @@ Explore UCL student perspectives on GenAI:
 
 ## Activities related to week 3
 
-For each activity:
+Try and write your own solutions in Python before you use gen-AI. You can then compare the gen AI code to your own and
+reflect, e.g.:
 
-1. Write/create your own version
-2. Write a prompt to generate an AI version
-3. Compare the gen AI output to your own and reflect
+- Would you adapt your work based on the AI result? If so how?
+- Have your learned anything from the comparison?
+- Has the gen-AI aided your understanding?
 
-    - Would you adapt your work based on the AI result? If so how?
-    - Have your learned anything from the comparison?
-    - Has the gen-AI aided your understanding?
-4. Consider repeating the same prompt with a different gen-AI tool and comparing the results.
+You can also try different gen AI tools and compare their output to each other and to your own solution.
 
-Activities:
+Activities to try:
 
 1. Write/improve code e.g. Prompt "Write Python code that is an example of how to use pandas to read a csv file into a
    DataFrame" and as a second prompt "Add error handling".
@@ -173,16 +171,16 @@ Activities:
     - [CoPilot with Jetbrains PyCharm](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=jetbrains#about-github-copilot-and-jetbrains-ides)
       Follow the instructions in the link to download the plugin and login to GitHub using the PyCharm | Tools | GitHub
       Copilot login option. It will require you to copy and enter a code.
-    - Open `ai-docstring.py`
-    - Line 1 before the docstring, start typing 'def ' and it should prompt you by offering a meaningful function name.
-    - Place the cursor by the start of the docstring, and again it should offer you code to complete the functon; you
+        - Open `ai-docstring.py`
+        - Line 1 before the docstring, start typing 'def ' and it should prompt you by offering a meaningful function name.
+        - Place the cursor by the start of the docstring, and again it should offer you code to complete the functon; you
       may need to select the Refresh option in the GitHub copilot window.
-    - Accept the code, and you should have a function with a docstring.
+        - Accept the code, and you should have a function with a docstring.
 
     - [CoPilot with VS Code](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=vscode#prerequisites-2).
       Use the reference to set up VS Code to work with GitHub CoPilot.
-    - Open `ai-docstring.py`.
-    - On line 1 start typing 'def ' and it should prompt you by offering a meaningful function name.
-    - Hover over the start of solution - it should correct the indentation and provide an implementation of the code.
-    - This is only a simple example. In VS Code the CoPilot feature functions with the lightbulb to offer
+        - Open `ai-docstring.py`.
+        - On line 1 start typing 'def ' and it should prompt you by offering a meaningful function name.
+        - Hover over the start of solution - it should correct the indentation and provide an implementation of the code.
+        - This is only a simple example. In VS Code the CoPilot feature functions with the lightbulb to offer
       auto-completion of code and adding documentation to code.
