@@ -95,7 +95,7 @@ import, setting data types for columns, etc. Use the above linked references for
    counts from 0), `pd.read_csv(paralympics_datafile_excel, sheetname="name_of_sheet")` to read a sheet called '
    name_of_sheet'. Add code to create a 3rd dataframe that contains the data from the second worksheet (called '
    medal_standings').
-5. Run the code. It won't return anything is all is well. If you have errors, read the error messages to try and
+5. Run the code. It won't return anything if all is well. If you have errors, read the error messages to try and
    identify what is wrong and correct your code. Some common issues:
 
    `FileNotFoundError: [Errno 2] No such file or directory: '.../src/tutorialpkg/paralympics_events_raw.csv'` - in this
