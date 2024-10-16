@@ -17,4 +17,11 @@ if __name__ == '__main__':
     target_file = "paralympics_events_raw.csv"
     df = readcsv(target_file)
     df.hist()
+    df["year"].hist()
+    plt.show()
+
+    # Filter the DataFrame to select only rows where 'type' is 'summer'
+    # syntax: df = df[df['column_name'] == filter_value]
+    summer_df = df[df['type'] == 'summer']
+    summer_df.hist()
     plt.show()
