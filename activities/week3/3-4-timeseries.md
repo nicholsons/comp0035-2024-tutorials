@@ -19,7 +19,7 @@ The next charts consider the number of participants over time.
 
    Winter events have far fewer participants than summer, hence the zigzag effect.
 
-2. Modify the chart code above to group the data by the `Type` column before creating the plot. The general syntax
+2. Modify the chart code above to group the data by the `type` column before creating the plot. The general syntax
    is: `df.groupby("ColNameToGroupBy").plot(x="SomeCol", y="AnotherCol")`.
 
 If you wish to challenge yourself, display the charts showing the split of male and female participants.
