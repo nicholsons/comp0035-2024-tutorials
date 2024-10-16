@@ -1,4 +1,4 @@
-import pathlib as pb
+from pathlib import Path
 import pandas as pd
 
 
@@ -16,7 +16,7 @@ def describe_dataframe(df):
 if __name__ == "__main__":
     # Filepath of the csv data file
     try:
-        paralympics_datafile_csv = pb.Path(__file__).parent.parent.joinpath("data", "paralympics_events_raw.csv")
+        paralympics_datafile_csv = Path.Path(__file__).parent.parent.joinpath("data", "paralympics_events_raw.csv")
     except FileNotFoundError as e:
         print(f"File not found. Please check the file path. Error: {e}")
 
