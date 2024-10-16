@@ -1,0 +1,818 @@
+Location,Year,Rank,Team,NPC,Gold,Silver,Bronze,Total
+Barcelona,1992,1.0,United States of America,USA,75,52,48,175
+Barcelona,1992,2.0,Germany,GER,61,51,59,171
+Barcelona,1992,3.0,Great Britain,GBR,40,47,41,128
+Barcelona,1992,4.0,France,FRA,36,36,34,106
+Barcelona,1992,5.0,Spain,ESP,34,31,42,107
+Barcelona,1992,6.0,Canada,CAN,28,21,26,75
+Barcelona,1992,7.0,Australia,AUS,24,27,25,76
+Barcelona,1992,8.0,Unified Team,EUN,16,14,15,45
+Barcelona,1992,9.0,Netherlands,NED,14,14,11,39
+Barcelona,1992,10.0,Norway,NOR,13,13,7,33
+Barcelona,1992,11.0,Denmark,DEN,12,22,12,46
+Barcelona,1992,12.0,Republic of Korea,KOR,11,15,18,44
+Barcelona,1992,13.0,People's Republic of China,CHN,11,7,7,25
+Barcelona,1992,14.0,Poland,POL,10,12,10,32
+Barcelona,1992,15.0,Italy,ITA,10,7,18,35
+Barcelona,1992,16.0,Japan,JPN,8,7,15,30
+Barcelona,1992,17.0,Finland,FIN,8,6,11,25
+Barcelona,1992,18.0,Sweden,SWE,7,22,9,38
+Barcelona,1992,19.0,Egypt,EGY,7,6,7,20
+Barcelona,1992,20.0,Switzerland,SUI,6,16,13,35
+Barcelona,1992,21.0,Belgium,BEL,5,5,7,17
+Barcelona,1992,22.0,Austria,AUT,5,4,13,22
+Barcelona,1992,23.0,New Zealand,NZL,5,1,0,6
+Barcelona,1992,24.0,Czechoslovakia,TCH,4,3,6,13
+Barcelona,1992,25.0,Hungary,HUN,4,3,4,11
+Barcelona,1992,26.0,Independent Paralympic Participants ,IPP,4,3,1,8
+Barcelona,1992,27.0,South Africa,RSA,4,1,3,8
+Barcelona,1992,28.0,"Hong Kong, China",HKG,3,4,4,11
+Barcelona,1992,29.0,Cuba,CUB,3,3,3,9
+Barcelona,1992,29.0,Portugal,POR,3,3,3,9
+Barcelona,1992,30.0,Iceland,ISL,3,2,12,17
+Barcelona,1992,31.0,Brazil,BRA,3,0,4,7
+Barcelona,1992,32.0,Nigeria,NGR,3,0,0,3
+Barcelona,1992,33.0,Israel,ISR,2,4,5,11
+Barcelona,1992,34.0,Slovenia,SLO,2,0,1,3
+Barcelona,1992,35.0,Kuwait,KUW,1,3,1,5
+Barcelona,1992,36.0,Islamic Republic of Iran,IRI,1,2,1,4
+Barcelona,1992,37.0,Bulgaria,BUL,1,2,0,3
+Barcelona,1992,37.0,Panama,PAN,1,2,0,3
+Barcelona,1992,38.0,Argentina,ARG,1,1,0,2
+Barcelona,1992,39.0,Kenya,KEN,1,0,1,2
+Barcelona,1992,40.0,Lithuania,LTU,0,4,3,7
+Barcelona,1992,41.0,Ireland,IRL,0,3,4,7
+Barcelona,1992,42.0,Estonia,EST,0,2,1,3
+Barcelona,1992,42.0,Greece,GRE,0,2,1,3
+Barcelona,1992,43.0,Mexico,MEX,0,1,10,11
+Barcelona,1992,44.0,Jamaica,JAM,0,1,2,3
+Barcelona,1992,44.0,Malaysia,MAS,0,1,2,3
+Barcelona,1992,45.0,Faroe Islands,FRO,0,1,0,1
+Barcelona,1992,46.0,Bahrain,BRN,0,0,1,1
+Barcelona,1992,46.0,Chinese Taipei,TPE,0,0,1,1
+Barcelona,1992,46.0,Croatia,CRO,0,0,1,1
+Barcelona,1992,46.0,Iraq,IRQ,0,0,1,1
+Barcelona,1992,46.0,Thailand,THA,0,0,1,1
+Barcelona,1992,46.0,Venezuela,VEN,0,0,1,1
+Atlanta,1996,1.0,United States of America,USA,46,46,65,157
+Atlanta,1996,2.0,Australia,AUS,42,37,27,106
+Atlanta,1996,3.0,Germany,GER,40,58,51,149
+Atlanta,1996,4.0,Great Britain,GBR,39,42,41,122
+Atlanta,1996,5.0,Spain,ESP,39,31,36,106
+Atlanta,1996,6.0,France,FRA,35,29,31,95
+Atlanta,1996,7.0,Canada,CAN,24,21,24,69
+Atlanta,1996,8.0,Netherlands,NED,17,11,17,45
+Atlanta,1996,9.0,People's Republic of China,CHN,16,13,10,39
+Atlanta,1996,10.0,Japan,JPN,14,10,13,37
+Atlanta,1996,11.0,Poland,POL,13,14,8,35
+Atlanta,1996,12.0,Republic of Korea,KOR,13,2,15,30
+Atlanta,1996,13.0,Sweden,SWE,12,14,11,37
+Atlanta,1996,14.0,Italy,ITA,11,20,14,45
+Atlanta,1996,15.0,South Africa,RSA,10,8,10,28
+Atlanta,1996,16.0,Russian Federation,RUS,9,7,11,27
+Atlanta,1996,17.0,Norway,NOR,9,7,4,20
+Atlanta,1996,18.0,Switzerland,SUI,9,6,6,21
+Atlanta,1996,19.0,New Zealand,NZL,9,6,3,18
+Atlanta,1996,20.0,Islamic Republic of Iran,IRI,9,5,3,17
+Atlanta,1996,21.0,Egypt,EGY,8,11,11,30
+Atlanta,1996,22.0,Belgium,BEL,8,10,7,25
+Atlanta,1996,23.0,Cuba,CUB,8,3,0,11
+Atlanta,1996,24.0,Denmark,DEN,7,17,17,41
+Atlanta,1996,25.0,Austria,AUT,6,6,10,22
+Atlanta,1996,26.0,Portugal,POR,6,4,4,14
+Atlanta,1996,27.0,"Hong Kong, China",HKG,5,5,5,15
+Atlanta,1996,28.0,Iceland,ISL,5,4,5,14
+Atlanta,1996,29.0,Hungary,HUN,5,2,3,10
+Atlanta,1996,30.0,Finland,FIN,4,5,4,13
+Atlanta,1996,31.0,Mexico,MEX,3,5,4,12
+Atlanta,1996,32.0,Estonia,EST,3,4,2,9
+Atlanta,1996,33.0,Belarus,BLR,3,3,7,13
+Atlanta,1996,34.0,Lithuania,LTU,3,2,6,11
+Atlanta,1996,35.0,Nigeria,NGR,3,2,3,8
+Atlanta,1996,36.0,Czechia,CZE,2,7,1,10
+Atlanta,1996,37.0,Brazil,BRA,2,6,13,21
+Atlanta,1996,38.0,Argentina,ARG,2,5,2,9
+Atlanta,1996,39.0,Slovakia,SVK,2,4,5,11
+Atlanta,1996,40.0,Algeria,ALG,2,2,3,7
+Atlanta,1996,41.0,Yugoslavia ,YUG,2,2,0,4
+Atlanta,1996,42.0,C√¥te d'Ivoire,CIV,2,0,0,2
+Atlanta,1996,42.0,Panama,PAN,2,0,0,2
+Atlanta,1996,43.0,Ukraine,UKR,1,4,2,7
+Atlanta,1996,44.0,Ireland,IRL,1,3,6,10
+Atlanta,1996,45.0,Greece,GRE,1,1,3,5
+Atlanta,1996,46.0,Kuwait,KUW,1,1,1,3
+Atlanta,1996,47.0,Kenya,KEN,1,1,0,2
+Atlanta,1996,48.0,Chinese Taipei,TPE,1,0,2,3
+Atlanta,1996,49.0,Dominican Republic,DOM,1,0,0,1
+Atlanta,1996,49.0,Peru,PER,1,0,0,1
+Atlanta,1996,50.0,Israel,ISR,0,4,5,9
+Atlanta,1996,51.0,Slovenia,SLO,0,2,3,5
+Atlanta,1996,52.0,Tunisia,TUN,0,2,0,2
+Atlanta,1996,53.0,Bulgaria,BUL,0,1,1,2
+Atlanta,1996,54.0,Jordan,JOR,0,1,0,1
+Atlanta,1996,55.0,Republic of Moldova,MDA,0,0,2,2
+Atlanta,1996,55.0,Thailand,THA,0,0,2,2
+Atlanta,1996,56.0,Jamaica,JAM,0,0,1,1
+Atlanta,1996,56.0,Uruguay,URU,0,0,1,1
+Sydney,2000,1.0,Australia,AUS,63,39,47,149
+Sydney,2000,2.0,Great Britain,GBR,41,43,47,131
+Sydney,2000,3.0,Canada,CAN,38,33,25,96
+Sydney,2000,4.0,Spain,ESP,38,30,38,106
+Sydney,2000,5.0,United States of America,USA,36,39,34,109
+Sydney,2000,6.0,People's Republic of China,CHN,34,22,17,73
+Sydney,2000,7.0,France,FRA,30,28,28,86
+Sydney,2000,8.0,Poland,POL,19,22,12,53
+Sydney,2000,9.0,Republic of Korea,KOR,18,7,7,32
+Sydney,2000,10.0,Germany,GER,16,41,38,95
+Sydney,2000,11.0,Czechia,CZE,15,15,13,43
+Sydney,2000,12.0,Japan,JPN,13,17,11,41
+Sydney,2000,13.0,South Africa,RSA,13,12,13,38
+Sydney,2000,14.0,Russian Federation,RUS,12,11,12,35
+Sydney,2000,15.0,Netherlands,NED,12,9,9,30
+Sydney,2000,16.0,Islamic Republic of Iran,IRI,12,4,7,23
+Sydney,2000,17.0,Mexico,MEX,10,12,12,34
+Sydney,2000,18.0,Italy,ITA,9,8,10,27
+Sydney,2000,19.0,Denmark,DEN,8,8,14,30
+Sydney,2000,20.0,Switzerland,SUI,8,4,8,20
+Sydney,2000,21.0,"Hong Kong, China",HKG,8,3,7,18
+Sydney,2000,22.0,Nigeria,NGR,7,1,5,13
+Sydney,2000,23.0,Egypt,EGY,6,12,10,28
+Sydney,2000,24.0,Brazil,BRA,6,10,6,22
+Sydney,2000,25.0,New Zealand,NZL,6,8,4,18
+Sydney,2000,26.0,Portugal,POR,6,5,4,15
+Sydney,2000,27.0,Tunisia,TUN,6,4,1,11
+Sydney,2000,28.0,Belarus,BLR,5,8,10,23
+Sydney,2000,29.0,Sweden,SWE,5,6,10,21
+Sydney,2000,30.0,Thailand,THA,5,4,2,11
+Sydney,2000,31.0,Ireland,IRL,5,3,1,9
+Sydney,2000,32.0,Hungary,HUN,4,5,14,23
+Sydney,2000,33.0,Greece,GRE,4,4,3,11
+Sydney,2000,34.0,Cuba,CUB,4,2,2,8
+Sydney,2000,35.0,Ukraine,UKR,3,20,14,37
+Sydney,2000,36.0,Slovakia,SVK,3,5,5,13
+Sydney,2000,37.0,Israel,ISR,3,2,1,6
+Sydney,2000,38.0,Algeria,ALG,3,0,0,3
+Sydney,2000,39.0,Austria,AUT,2,7,6,15
+Sydney,2000,40.0,Norway,NOR,2,6,7,15
+Sydney,2000,41.0,Iceland,ISL,2,0,2,4
+Sydney,2000,42.0,Belgium,BEL,1,4,4,9
+Sydney,2000,43.0,Finland,FIN,1,3,6,10
+Sydney,2000,44.0,Chinese Taipei,TPE,1,2,4,7
+Sydney,2000,45.0,Estonia,EST,1,1,3,5
+Sydney,2000,46.0,Kenya,KEN,1,1,2,4
+Sydney,2000,47.0,Peru,PER,1,1,0,2
+Sydney,2000,48.0,C√¥te d'Ivoire,CIV,1,0,1,2
+Sydney,2000,49.0,Bulgaria,BUL,1,0,0,1
+Sydney,2000,49.0,Jordan,JOR,1,0,0,1
+Sydney,2000,49.0,Zimbabwe,ZIM,1,0,0,1
+Sydney,2000,50.0,Faroe Islands,FRO,0,3,1,4
+Sydney,2000,50.0,United Arab Emirates,UAE,0,3,1,4
+Sydney,2000,51.0,Argentina,ARG,0,2,3,5
+Sydney,2000,52.0,Slovenia,SLO,0,2,2,4
+Sydney,2000,53.0,Lithuania,LTU,0,2,1,3
+Sydney,2000,54.0,Kuwait,KUW,0,1,4,5
+Sydney,2000,55.0,Bahrain,BRN,0,1,1,2
+Sydney,2000,55.0,Panama,PAN,0,1,1,2
+Sydney,2000,56.0,Azerbaijan,AZE,0,1,0,1
+Sydney,2000,56.0,Bosnia and Herzegovina,BIH,0,1,0,1
+Sydney,2000,56.0,Yugoslavia ,YUG,0,1,0,1
+Sydney,2000,57.0,Latvia,LAT,0,0,3,3
+Sydney,2000,58.0,Libya,LBA,0,0,1,1
+Sydney,2000,58.0,Palestine,PLE,0,0,1,1
+Sydney,2000,58.0,Philippines,PHI,0,0,1,1
+Sydney,2000,58.0,Puerto Rico,PUR,0,0,1,1
+Sydney,2000,58.0,Venezuela,VEN,0,0,1,1
+Athens,2004,1.0,People's Republic of China,CHN,63,46,32,141
+Athens,2004,2.0,Great Britain,GBR,35,30,29,94
+Athens,2004,3.0,Canada,CAN,28,19,25,72
+Athens,2004,4.0,United States of America,USA,27,22,39,88
+Athens,2004,5.0,Australia,AUS,26,39,36,101
+Athens,2004,6.0,Ukraine,UKR,24,12,19,55
+Athens,2004,7.0,Spain,ESP,20,27,24,71
+Athens,2004,8.0,Germany,GER,19,28,31,78
+Athens,2004,9.0,France,FRA,18,26,30,74
+Athens,2004,10.0,Japan,JPN,17,15,20,52
+Athens,2004,11.0,Russian Federation,RUS,16,8,17,41
+Athens,2004,12.0,Czechia,CZE,16,8,7,31
+Athens,2004,13.0,South Africa,RSA,15,13,7,35
+Athens,2004,14.0,Brazil,BRA,14,12,7,33
+Athens,2004,15.0,Mexico,MEX,14,10,10,34
+Athens,2004,16.0,Republic of Korea,KOR,11,11,6,28
+Athens,2004,17.0,"Hong Kong, China",HKG,11,7,1,19
+Athens,2004,18.0,Poland,POL,10,25,19,54
+Athens,2004,19.0,Belarus,BLR,10,12,7,29
+Athens,2004,20.0,Austria,AUT,8,10,4,22
+Athens,2004,21.0,Sweden,SWE,8,7,6,21
+Athens,2004,22.0,Tunisia,TUN,8,7,3,18
+Athens,2004,23.0,Egypt,EGY,6,9,8,23
+Athens,2004,24.0,Islamic Republic of Iran,IRI,6,3,13,22
+Athens,2004,25.0,Algeria,ALG,6,2,5,13
+Athens,2004,26.0,New Zealand,NZL,6,1,3,10
+Athens,2004,27.0,Netherlands,NED,5,12,12,29
+Athens,2004,28.0,Nigeria,NGR,5,4,3,12
+Athens,2004,29.0,Denmark,DEN,5,3,7,15
+Athens,2004,30.0,Slovakia,SVK,5,3,4,12
+Athens,2004,31.0,Italy,ITA,4,8,7,19
+Athens,2004,32.0,Israel,ISR,4,4,5,13
+Athens,2004,33.0,Finland,FIN,4,1,3,8
+Athens,2004,34.0,Greece,GRE,3,13,4,20
+Athens,2004,35.0,Thailand,THA,3,6,6,15
+Athens,2004,36.0,Belgium,BEL,3,2,2,7
+Athens,2004,37.0,Kenya,KEN,3,1,3,7
+Athens,2004,38.0,Norway,NOR,3,1,1,5
+Athens,2004,39.0,Angola,ANG,3,0,0,3
+Athens,2004,40.0,Switzerland,SUI,2,6,8,16
+Athens,2004,41.0,Portugal,POR,2,5,5,12
+Athens,2004,42.0,Morocco,MAR,2,4,0,6
+Athens,2004,43.0,Cuba,CUB,2,2,7,11
+Athens,2004,44.0,Chinese Taipei,TPE,2,2,2,6
+Athens,2004,45.0,Azerbaijan,AZE,2,1,1,4
+Athens,2004,46.0,Hungary,HUN,1,8,10,19
+Athens,2004,47.0,Iceland,ISL,1,3,0,4
+Athens,2004,48.0,Kuwait,KUW,1,2,3,6
+Athens,2004,49.0,Slovenia,SLO,1,2,1,4
+Athens,2004,50.0,Lithuania,LTU,1,1,5,7
+Athens,2004,51.0,United Arab Emirates,UAE,1,1,2,4
+Athens,2004,52.0,Latvia,LAT,1,1,1,3
+Athens,2004,53.0,India,IND,1,0,1,2
+Athens,2004,53.0,Iraq,IRQ,1,0,1,2
+Athens,2004,53.0,Jamaica,JAM,1,0,1,2
+Athens,2004,53.0,Turkiye,TUR,1,0,1,2
+Athens,2004,54.0,Bosnia and Herzegovina,BIH,1,0,0,1
+Athens,2004,54.0,Botswana,BOT,1,0,0,1
+Athens,2004,54.0,Cyprus,CYP,1,0,0,1
+Athens,2004,54.0,Zimbabwe,ZIM,1,0,0,1
+Athens,2004,55.0,Ireland,IRL,0,3,1,4
+Athens,2004,56.0,Argentina,ARG,0,2,2,4
+Athens,2004,57.0,Venezuela,VEN,0,1,2,3
+Athens,2004,58.0,Jordan,JOR,0,1,1,2
+Athens,2004,58.0,Palestine,PLE,0,1,1,2
+Athens,2004,59.0,Bahrain,BRN,0,1,0,1
+Athens,2004,59.0,Estonia,EST,0,1,0,1
+Athens,2004,59.0,North Macedonia,MKD,0,1,0,1
+Athens,2004,59.0,Panama,PAN,0,1,0,1
+Athens,2004,60.0,Croatia,CRO,0,0,4,4
+Athens,2004,61.0,Peru,PER,0,0,2,2
+Athens,2004,61.0,Serbia and Montenegro,SCG,0,0,2,2
+Athens,2004,62.0,Faroe Islands,FRO,0,0,1,1
+Athens,2004,62.0,Puerto Rico,PUR,0,0,1,1
+Athens,2004,62.0,Rwanda,RWA,0,0,1,1
+Beijing,2008,1.0,People's Republic of China,CHN,89,70,52,211
+Beijing,2008,2.0,Great Britain,GBR,42,29,31,102
+Beijing,2008,3.0,United States of America,USA,36,35,28,99
+Beijing,2008,4.0,Ukraine,UKR,24,18,32,74
+Beijing,2008,5.0,Australia,AUS,23,29,27,79
+Beijing,2008,6.0,South Africa,RSA,21,3,6,30
+Beijing,2008,7.0,Canada,CAN,19,10,21,50
+Beijing,2008,8.0,Russian Federation,RUS,18,23,22,63
+Beijing,2008,9.0,Brazil,BRA,16,14,17,47
+Beijing,2008,10.0,Spain,ESP,15,21,22,58
+Beijing,2008,11.0,Germany,GER,14,25,20,59
+Beijing,2008,12.0,France,FRA,12,21,19,52
+Beijing,2008,13.0,Republic of Korea,KOR,10,8,13,31
+Beijing,2008,14.0,Mexico,MEX,10,3,7,20
+Beijing,2008,15.0,Tunisia,TUN,9,9,3,21
+Beijing,2008,16.0,Czechia,CZE,6,3,18,27
+Beijing,2008,17.0,Japan,JPN,5,14,8,27
+Beijing,2008,18.0,Poland,POL,5,12,13,30
+Beijing,2008,19.0,Netherlands,NED,5,10,7,22
+Beijing,2008,20.0,Greece,GRE,5,9,10,24
+Beijing,2008,21.0,Belarus,BLR,5,7,1,13
+Beijing,2008,22.0,Islamic Republic of Iran,IRI,5,6,3,14
+Beijing,2008,23.0,Cuba,CUB,5,3,6,14
+Beijing,2008,24.0,New Zealand,NZL,5,3,4,12
+Beijing,2008,24.0,Sweden,SWE,5,3,4,12
+Beijing,2008,25.0,"Hong Kong, China",HKG,5,3,3,11
+Beijing,2008,26.0,Kenya,KEN,5,3,1,9
+Beijing,2008,27.0,Italy,ITA,4,7,7,18
+Beijing,2008,28.0,Egypt,EGY,4,4,4,12
+Beijing,2008,29.0,Nigeria,NGR,4,4,1,9
+Beijing,2008,30.0,Algeria,ALG,4,3,8,15
+Beijing,2008,31.0,Morocco,MAR,4,1,2,7
+Beijing,2008,32.0,Austria,AUT,4,1,1,6
+Beijing,2008,33.0,Switzerland,SUI,3,2,6,11
+Beijing,2008,34.0,Denmark,DEN,3,2,4,9
+Beijing,2008,35.0,Ireland,IRL,3,1,1,5
+Beijing,2008,36.0,Croatia,CRO,3,1,0,4
+Beijing,2008,37.0,Azerbaijan,AZE,2,3,5,10
+Beijing,2008,38.0,Slovakia,SVK,2,3,1,6
+Beijing,2008,39.0,Finland,FIN,2,2,2,6
+Beijing,2008,40.0,Thailand,THA,1,5,7,13
+Beijing,2008,41.0,Portugal,POR,1,4,2,7
+Beijing,2008,42.0,Norway,NOR,1,3,3,7
+Beijing,2008,43.0,Cyprus,CYP,1,2,1,4
+Beijing,2008,44.0,Latvia,LAT,1,2,0,3
+Beijing,2008,45.0,Singapore,SGP,1,1,2,4
+Beijing,2008,45.0,Venezuela,VEN,1,1,2,4
+Beijing,2008,46.0,Saudi Arabia,KSA,1,1,0,2
+Beijing,2008,47.0,Hungary,HUN,1,0,5,6
+Beijing,2008,48.0,Chinese Taipei,TPE,1,0,1,2
+Beijing,2008,48.0,Turkiye,TUR,1,0,1,2
+Beijing,2008,49.0,Mongolia,MGL,1,0,0,1
+Beijing,2008,50.0,Israel,ISR,0,5,1,6
+Beijing,2008,51.0,Angola,ANG,0,3,0,3
+Beijing,2008,52.0,Jordan,JOR,0,2,2,4
+Beijing,2008,53.0,Lithuania,LTU,0,2,0,2
+Beijing,2008,53.0,Serbia,SRB,0,2,0,2
+Beijing,2008,54.0,Argentina,ARG,0,1,5,6
+Beijing,2008,55.0,Slovenia,SLO,0,1,2,3
+Beijing,2008,56.0,Bulgaria,BUL,0,1,1,2
+Beijing,2008,56.0,Colombia,COL,0,1,1,2
+Beijing,2008,56.0,Iraq,IRQ,0,1,1,2
+Beijing,2008,57.0,Bosnia and Herzegovina,BIH,0,1,0,1
+Beijing,2008,57.0,Pakistan,PAK,0,1,0,1
+Beijing,2008,57.0,Papua New Guinea,PNG,0,1,0,1
+Beijing,2008,57.0,Romania,ROU,0,1,0,1
+Beijing,2008,57.0,United Arab Emirates,UAE,0,1,0,1
+Beijing,2008,58.0,Lebanon,LBN,0,0,2,2
+Beijing,2008,59.0,Belgium,BEL,0,0,1,1
+Beijing,2008,59.0,Estonia,EST,0,0,1,1
+Beijing,2008,59.0,Jamaica,JAM,0,0,1,1
+Beijing,2008,59.0,Lao People's Democratic Republic,LAO,0,0,1,1
+Beijing,2008,59.0,Malaysia,MAS,0,0,1,1
+Beijing,2008,59.0,Namibia,NAM,0,0,1,1
+Beijing,2008,59.0,Puerto Rico,PUR,0,0,1,1
+Beijing,2008,59.0,Syrian Arab Republic,SYR,0,0,1,1
+London,2012,1.0,People's Republic of China,CHN,95,71,65,231
+London,2012,2.0,Russian Federation,RUS,36,38,28,102
+London,2012,3.0,Great Britain,GBR,34,43,43,120
+London,2012,4.0,Ukraine,UKR,32,24,28,84
+London,2012,5.0,Australia,AUS,32,23,30,85
+London,2012,6.0,United States of America,USA,31,29,38,98
+London,2012,7.0,Brazil,BRA,21,14,8,43
+London,2012,8.0,Germany,GER,18,26,22,66
+London,2012,9.0,Poland,POL,14,13,9,36
+London,2012,10.0,Netherlands,NED,10,10,19,39
+London,2012,11.0,Islamic Republic of Iran,IRI,10,7,7,24
+London,2012,12.0,Republic of Korea,KOR,9,9,9,27
+London,2012,13.0,Italy,ITA,9,8,11,28
+London,2012,14.0,Tunisia,TUN,9,5,5,19
+London,2012,15.0,Cuba,CUB,9,5,3,17
+London,2012,16.0,France,FRA,8,19,18,45
+London,2012,17.0,Spain,ESP,8,18,16,42
+London,2012,18.0,South Africa,RSA,8,12,9,29
+London,2012,19.0,Ireland,IRL,8,3,5,16
+London,2012,20.0,Canada,CAN,7,15,9,31
+London,2012,21.0,New Zealand,NZL,6,7,4,17
+London,2012,22.0,Nigeria,NGR,6,5,2,13
+London,2012,23.0,Mexico,MEX,6,4,11,21
+London,2012,24.0,Japan,JPN,5,5,6,16
+London,2012,25.0,Belarus,BLR,5,2,3,10
+London,2012,26.0,Algeria,ALG,4,6,9,19
+London,2012,27.0,Azerbaijan,AZE,4,5,3,12
+London,2012,28.0,Egypt,EGY,4,4,7,15
+London,2012,29.0,Sweden,SWE,4,4,4,12
+London,2012,30.0,Austria,AUT,4,3,6,13
+London,2012,31.0,Thailand,THA,4,2,2,8
+London,2012,32.0,Finland,FIN,4,1,1,6
+London,2012,33.0,Switzerland,SUI,3,6,4,13
+London,2012,34.0,"Hong Kong, China",HKG,3,3,6,12
+London,2012,35.0,Norway,NOR,3,2,3,8
+London,2012,36.0,Belgium,BEL,3,1,3,7
+London,2012,37.0,Morocco,MAR,3,0,3,6
+London,2012,38.0,Hungary,HUN,2,6,6,14
+London,2012,39.0,Serbia,SRB,2,3,0,5
+London,2012,40.0,Kenya,KEN,2,2,2,6
+London,2012,41.0,Slovakia,SVK,2,1,3,6
+London,2012,42.0,Czechia,CZE,1,6,4,11
+London,2012,43.0,Turkiye,TUR,1,5,4,10
+London,2012,44.0,Greece,GRE,1,3,8,12
+London,2012,45.0,Israel,ISR,1,2,5,8
+London,2012,46.0,United Arab Emirates,UAE,1,1,1,3
+London,2012,47.0,Latvia,LAT,1,1,0,2
+London,2012,47.0,Namibia,NAM,1,1,0,2
+London,2012,47.0,Romania,ROU,1,1,0,2
+London,2012,48.0,Denmark,DEN,1,0,4,5
+London,2012,49.0,Angola,ANG,1,0,1,2
+London,2012,50.0,Bosnia and Herzegovina,BIH,1,0,0,1
+London,2012,50.0,Chile,CHI,1,0,0,1
+London,2012,50.0,Fiji,FIJ,1,0,0,1
+London,2012,50.0,Iceland,ISL,1,0,0,1
+London,2012,50.0,Jamaica,JAM,1,0,0,1
+London,2012,50.0,North Macedonia,MKD,1,0,0,1
+London,2012,51.0,Croatia,CRO,0,2,3,5
+London,2012,52.0,Bulgaria,BUL,0,2,1,3
+London,2012,52.0,Iraq,IRQ,0,2,1,3
+London,2012,53.0,Colombia,COL,0,2,0,2
+London,2012,54.0,Argentina,ARG,0,1,4,5
+London,2012,55.0,Chinese Taipei,TPE,0,1,2,3
+London,2012,55.0,Portugal,POR,0,1,2,3
+London,2012,56.0,Malaysia,MAS,0,1,1,2
+London,2012,56.0,Singapore,SGP,0,1,1,2
+London,2012,57.0,Cyprus,CYP,0,1,0,1
+London,2012,57.0,Ethiopia,ETH,0,1,0,1
+London,2012,57.0,India,IND,0,1,0,1
+London,2012,57.0,Saudi Arabia,KSA,0,1,0,1
+London,2012,57.0,Slovenia,SLO,0,1,0,1
+London,2012,57.0,Uzbekistan,UZB,0,1,0,1
+London,2012,58.0,Venezuela,VEN,0,0,2,2
+London,2012,59.0,Indonesia,INA,0,0,1,1
+London,2012,59.0,Sri Lanka,SRI,0,0,1,1
+Rio,2016,1.0,People's Republic of China,CHN,107,81,51,239
+Rio,2016,2.0,Great Britain,GBR,64,39,44,147
+Rio,2016,3.0,Ukraine,UKR,41,37,39,117
+Rio,2016,4.0,United States of America,USA,40,44,31,115
+Rio,2016,5.0,Australia,AUS,22,30,29,81
+Rio,2016,6.0,Germany,GER,18,25,14,57
+Rio,2016,7.0,Netherlands,NED,17,19,26,62
+Rio,2016,8.0,Brazil,BRA,14,29,29,72
+Rio,2016,9.0,Italy,ITA,10,14,15,39
+Rio,2016,10.0,Poland,POL,9,18,12,39
+Rio,2016,11.0,Spain,ESP,9,14,8,31
+Rio,2016,12.0,France,FRA,9,5,14,28
+Rio,2016,13.0,New Zealand,NZL,9,5,7,21
+Rio,2016,14.0,Canada,CAN,8,10,11,29
+Rio,2016,15.0,Islamic Republic of Iran,IRI,8,9,7,24
+Rio,2016,16.0,Uzbekistan,UZB,8,6,17,31
+Rio,2016,17.0,Nigeria,NGR,8,2,2,12
+Rio,2016,18.0,Cuba,CUB,8,1,6,15
+Rio,2016,19.0,Belarus,BLR,8,0,2,10
+Rio,2016,20.0,Republic of Korea,KOR,7,11,17,35
+Rio,2016,21.0,Tunisia,TUN,7,6,6,19
+Rio,2016,22.0,South Africa,RSA,7,6,4,17
+Rio,2016,23.0,Thailand,THA,6,6,6,18
+Rio,2016,24.0,Greece,GRE,5,4,4,13
+Rio,2016,25.0,Belgium,BEL,5,3,3,11
+Rio,2016,25.0,Slovakia,SVK,5,3,3,11
+Rio,2016,26.0,Algeria,ALG,4,5,7,16
+Rio,2016,27.0,Ireland,IRL,4,4,3,11
+Rio,2016,28.0,Mexico,MEX,4,2,9,15
+Rio,2016,29.0,Egypt,EGY,3,5,4,12
+Rio,2016,30.0,Serbia,SRB,3,2,4,9
+Rio,2016,31.0,Norway,NOR,3,2,3,8
+Rio,2016,32.0,Morocco,MAR,3,2,2,7
+Rio,2016,33.0,Turkiye,TUR,3,1,5,9
+Rio,2016,34.0,Kenya,KEN,3,1,2,6
+Rio,2016,35.0,Malaysia,MAS,3,0,1,4
+Rio,2016,36.0,Colombia,COL,2,5,10,17
+Rio,2016,37.0,United Arab Emirates,UAE,2,4,1,7
+Rio,2016,38.0,Iraq,IRQ,2,3,0,5
+Rio,2016,39.0,"Hong Kong, China",HKG,2,2,2,6
+Rio,2016,40.0,Croatia,CRO,2,2,1,5
+Rio,2016,40.0,Switzerland,SUI,2,2,1,5
+Rio,2016,41.0,India,IND,2,1,1,4
+Rio,2016,42.0,Lithuania,LTU,2,1,0,3
+Rio,2016,43.0,Latvia,LAT,2,0,2,4
+Rio,2016,44.0,Singapore,SGP,2,0,1,3
+Rio,2016,45.0,Hungary,HUN,1,8,9,18
+Rio,2016,46.0,Azerbaijan,AZE,1,8,2,11
+Rio,2016,47.0,Sweden,SWE,1,4,5,10
+Rio,2016,48.0,Austria,AUT,1,4,4,9
+Rio,2016,49.0,Czechia,CZE,1,2,4,7
+Rio,2016,49.0,Denmark,DEN,1,2,4,7
+Rio,2016,50.0,Namibia,NAM,1,2,2,5
+Rio,2016,51.0,Argentina,ARG,1,1,3,5
+Rio,2016,52.0,Vietnam,VIE,1,1,2,4
+Rio,2016,53.0,Finland,FIN,1,1,1,3
+Rio,2016,53.0,Trinidad and Tobago,TTO,1,1,1,3
+Rio,2016,54.0,Kazakhstan,KAZ,1,1,0,2
+Rio,2016,54.0,Slovenia,SLO,1,1,0,2
+Rio,2016,55.0,Bahrain,BRN,1,0,0,1
+Rio,2016,55.0,Bulgaria,BUL,1,0,0,1
+Rio,2016,55.0,Georgia,GEO,1,0,0,1
+Rio,2016,55.0,Kuwait,KUW,1,0,0,1
+Rio,2016,56.0,Japan,JPN,0,10,14,24
+Rio,2016,57.0,Venezuela,VEN,0,3,3,6
+Rio,2016,58.0,Jordan,JOR,0,2,1,3
+Rio,2016,59.0,Qatar,QAT,0,2,0,2
+Rio,2016,60.0,Chinese Taipei,TPE,0,1,1,2
+Rio,2016,61.0,Bosnia and Herzegovina,BIH,0,1,0,1
+Rio,2016,61.0,C√¥te d'Ivoire,CIV,0,1,0,1
+Rio,2016,61.0,Ethiopia,ETH,0,1,0,1
+Rio,2016,61.0,Uganda,UGA,0,1,0,1
+Rio,2016,62.0,Portugal,POR,0,0,4,4
+Rio,2016,63.0,Israel,ISR,0,0,3,3
+Rio,2016,64.0,Mongolia,MGL,0,0,2,2
+Rio,2016,65.0,Cape Verde,CPV,0,0,1,1
+Rio,2016,65.0,Indonesia,INA,0,0,1,1
+Rio,2016,65.0,Mozambique,MOZ,0,0,1,1
+Rio,2016,65.0,Pakistan,PAK,0,0,1,1
+Rio,2016,65.0,Philippines,PHI,0,0,1,1
+Rio,2016,65.0,Romania,ROU,0,0,1,1
+Rio,2016,65.0,Saudi Arabia,KSA,0,0,1,1
+Rio,2016,65.0,Sri Lanka,SRI,0,0,1,1
+Tokyo,2020,1.0,People's Republic of China,CHN,96,60,51,207
+Tokyo,2020,2.0,Great Britain,GBR,41,38,45,124
+Tokyo,2020,3.0,United States of America,USA,37,36,31,104
+Tokyo,2020,4.0,RPC,RPC,36,33,49,118
+Tokyo,2020,5.0,Netherlands,NED,25,17,17,59
+Tokyo,2020,6.0,Ukraine,UKR,24,47,27,98
+Tokyo,2020,7.0,Brazil,BRA,22,20,30,72
+Tokyo,2020,8.0,Australia,AUS,21,29,30,80
+Tokyo,2020,9.0,Italy,ITA,14,29,26,69
+Tokyo,2020,10.0,Azerbaijan,AZE,14,1,4,19
+Tokyo,2020,11.0,Japan,JPN,13,15,23,51
+Tokyo,2020,12.0,Germany,GER,13,12,18,43
+Tokyo,2020,13.0,Islamic Republic of Iran,IRI,12,11,1,24
+Tokyo,2020,14.0,France,FRA,11,15,29,55
+Tokyo,2020,15.0,Spain,ESP,9,15,12,36
+Tokyo,2020,16.0,Uzbekistan,UZB,8,5,6,19
+Tokyo,2020,17.0,Poland,POL,7,6,11,24
+Tokyo,2020,18.0,Hungary,HUN,7,5,4,16
+Tokyo,2020,19.0,Switzerland,SUI,7,4,3,14
+Tokyo,2020,20.0,Mexico,MEX,7,2,13,22
+Tokyo,2020,21.0,New Zealand,NZL,6,3,3,12
+Tokyo,2020,22.0,Israel,ISR,6,2,1,9
+Tokyo,2020,23.0,Canada,CAN,5,10,6,21
+Tokyo,2020,24.0,India,IND,5,8,6,19
+Tokyo,2020,25.0,Thailand,THA,5,5,8,18
+Tokyo,2020,26.0,Slovakia,SVK,5,2,4,11
+Tokyo,2020,27.0,Belarus,BLR,5,1,1,7
+Tokyo,2020,28.0,Tunisia,TUN,4,5,2,11
+Tokyo,2020,29.0,Algeria,ALG,4,4,4,12
+Tokyo,2020,30.0,Morocco,MAR,4,4,3,11
+Tokyo,2020,31.0,Belgium,BEL,4,3,8,15
+Tokyo,2020,32.0,Ireland,IRL,4,2,1,7
+Tokyo,2020,33.0,Nigeria,NGR,4,1,5,10
+Tokyo,2020,34.0,South Africa,RSA,4,1,2,7
+Tokyo,2020,35.0,Cuba,CUB,4,1,1,6
+Tokyo,2020,36.0,Jordan,JOR,4,0,1,5
+Tokyo,2020,37.0,Colombia,COL,3,7,14,24
+Tokyo,2020,38.0,Venezuela,VEN,3,2,2,7
+Tokyo,2020,39.0,Malaysia,MAS,3,2,0,5
+Tokyo,2020,40.0,Denmark,DEN,3,1,1,5
+Tokyo,2020,41.0,Republic of Korea,KOR,2,10,12,24
+Tokyo,2020,42.0,Turkiye,TUR,2,4,9,15
+Tokyo,2020,43.0,Indonesia,INA,2,3,4,9
+Tokyo,2020,44.0,Czechia,CZE,2,3,3,8
+Tokyo,2020,45.0,Chile,CHI,2,3,1,6
+Tokyo,2020,45.0,Serbia,SRB,2,3,1,6
+Tokyo,2020,46.0,Norway,NOR,2,0,2,4
+Tokyo,2020,47.0,Singapore,SGP,2,0,0,2
+Tokyo,2020,48.0,Austria,AUT,1,5,3,9
+Tokyo,2020,49.0,Sweden,SWE,1,5,2,8
+Tokyo,2020,50.0,Greece,GRE,1,3,7,11
+Tokyo,2020,51.0,Finland,FIN,1,3,1,5
+Tokyo,2020,51.0,Kazakhstan,KAZ,1,3,1,5
+Tokyo,2020,52.0,United Arab Emirates,UAE,1,1,1,3
+Tokyo,2020,53.0,Costa Rica,CRC,1,1,0,2
+Tokyo,2020,54.0,Ecuador,ECU,1,0,2,3
+Tokyo,2020,55.0,Cyprus,CYP,1,0,1,2
+Tokyo,2020,55.0,Sri Lanka,SRI,1,0,1,2
+Tokyo,2020,56.0,Ethiopia,ETH,1,0,0,1
+Tokyo,2020,56.0,Mongolia,MGL,1,0,0,1
+Tokyo,2020,56.0,Pakistan,PAK,1,0,0,1
+Tokyo,2020,56.0,Peru,PER,1,0,0,1
+Tokyo,2020,57.0,Argentina,ARG,0,5,4,9
+Tokyo,2020,58.0,Egypt,EGY,0,5,2,7
+Tokyo,2020,59.0,Croatia,CRO,0,3,4,7
+Tokyo,2020,60.0,Latvia,LAT,0,3,2,5
+Tokyo,2020,61.0,Georgia,GEO,0,3,0,3
+Tokyo,2020,62.0,"Hong Kong, China",HKG,0,2,3,5
+Tokyo,2020,63.0,Bulgaria,BUL,0,2,0,2
+Tokyo,2020,64.0,Iraq,IRQ,0,1,2,3
+Tokyo,2020,65.0,Kuwait,KUW,0,1,1,2
+Tokyo,2020,65.0,Namibia,NAM,0,1,1,2
+Tokyo,2020,65.0,Romania,ROU,0,1,1,2
+Tokyo,2020,65.0,Slovenia,SLO,0,1,1,2
+Tokyo,2020,66.0,Vietnam,VIE,0,1,0,1
+Tokyo,2020,67.0,Lithuania,LTU,0,0,3,3
+Tokyo,2020,68.0,Portugal,POR,0,0,2,2
+Tokyo,2020,69.0,Bosnia and Herzegovina,BIH,0,0,1,1
+Tokyo,2020,69.0,Chinese Taipei,TPE,0,0,1,1
+Tokyo,2020,69.0,El Salvador,ESA,0,0,1,1
+Tokyo,2020,69.0,Kenya,KEN,0,0,1,1
+Tokyo,2020,69.0,Montenegro,MNE,0,0,1,1
+Tokyo,2020,69.0,Oman,OMA,0,0,1,1
+Tokyo,2020,69.0,Qatar,QAT,0,0,1,1
+Tokyo,2020,69.0,Saudi Arabia,KSA,0,0,1,1
+Tokyo,2020,69.0,Uganda,UGA,0,0,1,1
+Ornskoldsvik,1976,1.0,West Germany,FRG,10,12,6,28
+Ornskoldsvik,1976,2.0,Switzerland,SUI,10,1,1,12
+Ornskoldsvik,1976,3.0,Finland,FIN,8,7,7,22
+Ornskoldsvik,1976,4.0,Norway,NOR,7,3,2,12
+Ornskoldsvik,1976,5.0,Sweden,SWE,6,7,7,20
+Ornskoldsvik,1976,6.0,Austria,AUT,5,16,14,35
+Ornskoldsvik,1976,7.0,Czechoslovakia,TCH,3,0,0,3
+Ornskoldsvik,1976,8.0,France,FRA,2,0,3,5
+Ornskoldsvik,1976,9.0,Canada,CAN,2,0,2,4
+Geilo,1980,1.0,Norway,NOR,23,21,10,54
+Geilo,1980,2.0,Finland,FIN,16,7,12,35
+Geilo,1980,3.0,Austria,AUT,6,10,6,22
+Geilo,1980,4.0,Sweden,SWE,5,3,8,16
+Geilo,1980,5.0,Switzerland,SUI,4,2,4,10
+Geilo,1980,6.0,United States of America,USA,4,1,1,6
+Geilo,1980,7.0,West Germany,FRG,3,6,9,18
+Geilo,1980,8.0,Canada,CAN,2,3,1,6
+Geilo,1980,9.0,France,FRA,1,1,1,3
+Geilo,1980,10.0,Czechoslovakia,TCH,0,1,0,1
+Innsbruck,1984,1.0,Austria,AUT,34,19,17,70
+Innsbruck,1984,2.0,Finland,FIN,19,9,6,34
+Innsbruck,1984,3.0,Norway,NOR,15,13,13,41
+Innsbruck,1984,4.0,West Germany,FRG,10,14,10,34
+Innsbruck,1984,5.0,United States of America,USA,7,14,14,35
+Innsbruck,1984,6.0,Sweden,SWE,7,2,5,14
+Innsbruck,1984,7.0,Switzerland,SUI,5,16,16,37
+Innsbruck,1984,8.0,France,FRA,4,2,0,6
+Innsbruck,1984,9.0,Poland,POL,3,2,8,13
+Innsbruck,1984,10.0,Canada,CAN,2,8,4,14
+Innsbruck,1984,11.0,New Zealand,NZL,1,3,1,5
+Innsbruck,1984,12.0,Great Britain,GBR,0,4,6,10
+Innsbruck,1984,13.0,Italy,ITA,0,0,1,1
+Innsbruck,1984,13.0,Yugoslavia ,YUG,0,0,1,1
+Innsbruck,1988,1.0,Norway,NOR,25,21,14,60
+Innsbruck,1988,2.0,Austria,AUT,20,10,14,44
+Innsbruck,1988,3.0,West Germany,FRG,9,11,10,30
+Innsbruck,1988,4.0,Finland,FIN,9,8,8,25
+Innsbruck,1988,5.0,Switzerland,SUI,8,7,8,23
+Innsbruck,1988,6.0,United States of America,USA,7,17,6,30
+Innsbruck,1988,7.0,France,FRA,5,5,3,13
+Innsbruck,1988,8.0,Canada,CAN,5,3,5,13
+Innsbruck,1988,9.0,Sweden,SWE,3,7,5,15
+Innsbruck,1988,10.0,Italy,ITA,3,0,6,9
+Innsbruck,1988,11.0,Spain,ESP,1,2,1,4
+Innsbruck,1988,12.0,Poland,POL,1,1,6,8
+Innsbruck,1988,13.0,New Zealand,NZL,0,1,0,1
+Innsbruck,1988,14.0,Japan,JPN,0,0,2,2
+Innsbruck,1988,14.0,Soviet Union,URS,0,0,2,2
+Tignes Albertville,1992,1.0,United States of America,USA,20,16,9,45
+Tignes Albertville,1992,2.0,Germany,GER,12,17,9,38
+Tignes Albertville,1992,3.0,Unified Team,EUN,10,8,3,21
+Tignes Albertville,1992,4.0,Austria,AUT,8,3,9,20
+Tignes Albertville,1992,5.0,Finland,FIN,7,3,4,14
+Tignes Albertville,1992,6.0,France,FRA,6,4,9,19
+Tignes Albertville,1992,7.0,Norway,NOR,5,5,4,14
+Tignes Albertville,1992,8.0,Switzerland,SUI,3,8,4,15
+Tignes Albertville,1992,9.0,Canada,CAN,2,4,6,12
+Tignes Albertville,1992,10.0,Poland,POL,2,0,3,5
+Tignes Albertville,1992,11.0,New Zealand,NZL,2,0,0,2
+Tignes Albertville,1992,12.0,Australia,AUS,1,1,2,4
+Tignes Albertville,1992,12.0,Sweden,SWE,1,1,2,4
+Tignes Albertville,1992,13.0,Czechoslovakia,TCH,0,4,2,6
+Tignes Albertville,1992,14.0,Great Britain,GBR,0,1,4,5
+Tignes Albertville,1992,15.0,Italy,ITA,0,1,3,4
+Tignes Albertville,1992,15.0,Spain,ESP,0,1,3,4
+Tignes Albertville,1992,16.0,Denmark,DEN,0,1,0,1
+Tignes Albertville,1992,17.0,Japan,JPN,0,0,2,2
+Lillehammer,1994,1.0,Norway,NOR,29,22,13,64
+Lillehammer,1994,2.0,Germany,GER,25,21,18,64
+Lillehammer,1994,3.0,United States of America,USA,24,12,7,43
+Lillehammer,1994,4.0,France,FRA,14,6,11,31
+Lillehammer,1994,5.0,Russian Federation,RUS,10,12,8,30
+Lillehammer,1994,6.0,Austria,AUT,7,16,12,35
+Lillehammer,1994,7.0,Finland,FIN,7,6,11,24
+Lillehammer,1994,8.0,Sweden,SWE,3,3,2,8
+Lillehammer,1994,9.0,Australia,AUS,3,2,4,9
+Lillehammer,1994,10.0,New Zealand,NZL,3,0,3,6
+Lillehammer,1994,11.0,Switzerland,SUI,2,9,5,16
+Lillehammer,1994,12.0,Poland,POL,2,3,5,10
+Lillehammer,1994,13.0,Spain,ESP,1,6,3,10
+Lillehammer,1994,14.0,Canada,CAN,1,2,5,8
+Lillehammer,1994,15.0,Netherlands,NED,1,0,3,4
+Lillehammer,1994,16.0,Denmark,DEN,1,0,2,3
+Lillehammer,1994,17.0,Italy,ITA,0,7,6,13
+Lillehammer,1994,18.0,Japan,JPN,0,3,3,6
+Lillehammer,1994,19.0,Slovakia,SVK,0,3,2,5
+Lillehammer,1994,20.0,Kazakhstan,KAZ,0,1,0,1
+Lillehammer,1994,21.0,Great Britain,GBR,0,0,5,5
+Lillehammer,1994,22.0,Belgium,BEL,0,0,1,1
+Lillehammer,1994,22.0,Czechia,CZE,0,0,1,1
+Lillehammer,1994,22.0,Estonia,EST,0,0,1,1
+Lillehammer,1994,22.0,Liechtenstein,LIE,0,0,1,1
+Nagano,1998,1.0,Norway,NOR,18,9,13,40
+Nagano,1998,2.0,Germany,GER,14,17,13,44
+Nagano,1998,3.0,United States of America,USA,13,8,13,34
+Nagano,1998,4.0,Japan,JPN,12,16,13,41
+Nagano,1998,5.0,Russian Federation,RUS,12,10,9,31
+Nagano,1998,6.0,Switzerland,SUI,10,5,8,23
+Nagano,1998,7.0,Spain,ESP,8,0,0,8
+Nagano,1998,8.0,Austria,AUT,7,16,11,34
+Nagano,1998,9.0,Finland,FIN,7,5,7,19
+Nagano,1998,10.0,France,FRA,5,9,8,22
+Nagano,1998,11.0,New Zealand,NZL,4,1,1,6
+Nagano,1998,12.0,Italy,ITA,3,4,3,10
+Nagano,1998,13.0,Czechia,CZE,3,3,1,7
+Nagano,1998,14.0,Ukraine,UKR,3,2,4,9
+Nagano,1998,15.0,Canada,CAN,1,9,5,15
+Nagano,1998,16.0,Australia,AUS,1,0,1,2
+Nagano,1998,16.0,Denmark,DEN,1,0,1,2
+Nagano,1998,17.0,Slovakia,SVK,0,6,4,10
+Nagano,1998,18.0,Sweden,SWE,0,1,5,6
+Nagano,1998,19.0,Netherlands,NED,0,1,1,2
+Nagano,1998,20.0,Poland,POL,0,0,2,2
+Salt Lake City,2002,1.0,Germany,GER,17,1,15,33
+Salt Lake City,2002,2.0,United States of America,USA,10,22,11,43
+Salt Lake City,2002,3.0,Norway,NOR,10,3,6,19
+Salt Lake City,2002,4.0,Austria,AUT,9,10,10,29
+Salt Lake City,2002,5.0,Russian Federation,RUS,7,9,5,21
+Salt Lake City,2002,6.0,Canada,CAN,6,4,5,15
+Salt Lake City,2002,7.0,Switzerland,SUI,6,4,2,12
+Salt Lake City,2002,8.0,Australia,AUS,6,1,0,7
+Salt Lake City,2002,9.0,Finland,FIN,4,1,3,8
+Salt Lake City,2002,10.0,New Zealand,NZL,4,0,2,6
+Salt Lake City,2002,11.0,Italy,ITA,3,3,3,9
+Salt Lake City,2002,12.0,Spain,ESP,3,2,2,7
+Salt Lake City,2002,13.0,France,FRA,2,11,6,19
+Salt Lake City,2002,14.0,Czechia,CZE,2,1,2,5
+Salt Lake City,2002,15.0,Netherlands,NED,1,3,0,4
+Salt Lake City,2002,16.0,Belarus,BLR,1,1,0,2
+Salt Lake City,2002,17.0,Poland,POL,1,0,2,3
+Salt Lake City,2002,18.0,Ukraine,UKR,0,6,6,12
+Salt Lake City,2002,19.0,Sweden,SWE,0,6,3,9
+Salt Lake City,2002,20.0,Slovakia,SVK,0,3,6,9
+Salt Lake City,2002,21.0,Republic of Korea,KOR,0,1,0,1
+Salt Lake City,2002,22.0,Japan,JPN,0,0,3,3
+Torino,2006,1.0,Russian Federation,RUS,13,13,7,33
+Torino,2006,2.0,Germany,GER,8,5,5,18
+Torino,2006,3.0,Ukraine,UKR,7,9,9,25
+Torino,2006,4.0,France,FRA,7,2,6,15
+Torino,2006,5.0,United States of America,USA,7,2,3,12
+Torino,2006,6.0,Canada,CAN,5,3,5,13
+Torino,2006,7.0,Austria,AUT,3,4,7,14
+Torino,2006,8.0,Japan,JPN,2,5,2,9
+Torino,2006,9.0,Italy,ITA,2,2,4,8
+Torino,2006,10.0,Poland,POL,2,0,0,2
+Torino,2006,11.0,Belarus,BLR,1,6,2,9
+Torino,2006,12.0,Norway,NOR,1,1,3,5
+Torino,2006,13.0,Australia,AUS,0,1,1,2
+Torino,2006,13.0,Slovakia,SVK,0,1,1,2
+Torino,2006,13.0,Spain,ESP,0,1,1,2
+Torino,2006,13.0,Switzerland,SUI,0,1,1,2
+Torino,2006,14.0,Czechia,CZE,0,1,0,1
+Torino,2006,14.0,Great Britain,GBR,0,1,0,1
+Torino,2006,15.0,Sweden,SWE,0,0,1,1
+Vancouver,2010,1.0,Germany,GER,13,5,6,24
+Vancouver,2010,2.0,Russian Federation,RUS,12,16,10,38
+Vancouver,2010,3.0,Canada,CAN,10,5,4,19
+Vancouver,2010,4.0,Slovakia,SVK,6,2,3,11
+Vancouver,2010,5.0,Ukraine,UKR,5,8,6,19
+Vancouver,2010,6.0,United States of America,USA,4,5,4,13
+Vancouver,2010,7.0,Austria,AUT,3,4,4,11
+Vancouver,2010,8.0,Japan,JPN,3,3,5,11
+Vancouver,2010,9.0,Belarus,BLR,2,0,7,9
+Vancouver,2010,10.0,France,FRA,1,4,1,6
+Vancouver,2010,11.0,Italy,ITA,1,3,3,7
+Vancouver,2010,12.0,Norway,NOR,1,3,2,6
+Vancouver,2010,13.0,Spain,ESP,1,2,0,3
+Vancouver,2010,13.0,Switzerland,SUI,1,2,0,3
+Vancouver,2010,14.0,New Zealand,NZL,1,0,0,1
+Vancouver,2010,15.0,Australia,AUS,0,1,3,4
+Vancouver,2010,16.0,Finland,FIN,0,1,1,2
+Vancouver,2010,17.0,Republic of Korea,KOR,0,1,0,1
+Vancouver,2010,18.0,Sweden,SWE,0,0,2,2
+Vancouver,2010,19.0,Czechia,CZE,0,0,1,1
+Vancouver,2010,19.0,Poland,POL,0,0,1,1
+Sochi,2014,1.0,Russian Federation,RUS,30,28,22,80
+Sochi,2014,2.0,Germany,GER,9,5,1,15
+Sochi,2014,3.0,Canada,CAN,7,2,7,16
+Sochi,2014,4.0,Ukraine,UKR,5,9,11,25
+Sochi,2014,5.0,France,FRA,5,3,4,12
+Sochi,2014,6.0,Slovakia,SVK,3,2,2,7
+Sochi,2014,7.0,Japan,JPN,3,1,2,6
+Sochi,2014,8.0,United States of America,USA,2,7,9,18
+Sochi,2014,9.0,Austria,AUT,2,5,4,11
+Sochi,2014,10.0,Great Britain,GBR,1,3,2,6
+Sochi,2014,11.0,Norway,NOR,1,2,1,4
+Sochi,2014,11.0,Sweden,SWE,1,2,1,4
+Sochi,2014,12.0,Spain,ESP,1,1,1,3
+Sochi,2014,13.0,Netherlands,NED,1,0,0,1
+Sochi,2014,13.0,Switzerland,SUI,1,0,0,1
+Sochi,2014,14.0,Finland,FIN,0,1,0,1
+Sochi,2014,14.0,New Zealand,NZL,0,1,0,1
+Sochi,2014,15.0,Belarus,BLR,0,0,3,3
+Sochi,2014,16.0,Australia,AUS,0,0,2,2
+Pyeongchang,2018,1.0,United States of America,USA,13,15,8,36
+Pyeongchang,2018,3.0,Canada,CAN,8,4,16,28
+Pyeongchang,2018,4.0,France,FRA,7,8,5,20
+Pyeongchang,2018,5.0,Germany,GER,7,8,4,19
+Pyeongchang,2018,6.0,Ukraine,UKR,7,7,8,22
+Pyeongchang,2018,7.0,Slovakia,SVK,6,4,1,11
+Pyeongchang,2018,8.0,Belarus,BLR,4,4,4,12
+Pyeongchang,2018,9.0,Japan,JPN,3,4,3,10
+Pyeongchang,2018,10.0,Netherlands,NED,3,3,1,7
+Pyeongchang,2018,11.0,Switzerland,SUI,3,0,0,3
+Pyeongchang,2018,12.0,Italy,ITA,2,2,1,5
+Pyeongchang,2018,13.0,Great Britain,GBR,1,4,2,7
+Pyeongchang,2018,14.0,Norway,NOR,1,3,4,8
+Pyeongchang,2018,15.0,Australia,AUS,1,0,3,4
+Pyeongchang,2018,16.0,Finland,FIN,1,0,2,3
+Pyeongchang,2018,16.0,Republic of Korea,KOR,1,0,2,3
+Pyeongchang,2018,16.0,New Zealand,NZL,1,0,2,3
+Pyeongchang,2018,17.0,Croatia,CRO,1,0,1,2
+Pyeongchang,2018,18.0,People's Republic of China,CHN,1,0,0,1
+Pyeongchang,2018,18.0,Kazakhstan,KAZ,1,0,0,1
+Pyeongchang,2018,19.0,Austria,AUT,0,2,5,7
+Pyeongchang,2018,20.0,Spain,ESP,0,1,1,2
+Pyeongchang,2018,21.0,Sweden,SWE,0,1,0,1
+Pyeongchang,2018,22.0,Belgium,BEL,0,0,1,1
+Pyeongchang,2018,22.0,Poland,POL,0,0,1,1
+Pyeongchang,2018,,Neutral Para Athlete,NPA,8,10,6,24
+Beijing,2022,1.0,People's Republic of China,CHN,18,20,23,61
+Beijing,2022,2.0,Ukraine,UKR,11,10,8,29
+Beijing,2022,3.0,Canada,CAN,8,6,11,25
+Beijing,2022,4.0,France,FRA,7,3,2,12
+Beijing,2022,5.0,United States of America,USA,6,11,3,20
+Beijing,2022,6.0,Austria,AUT,5,5,3,13
+Beijing,2022,7.0,Germany,GER,4,8,7,19
+Beijing,2022,8.0,Norway,NOR,4,2,1,7
+Beijing,2022,9.0,Japan,JPN,4,1,2,7
+Beijing,2022,10.0,Slovakia,SVK,3,0,3,6
+Beijing,2022,11.0,Italy,ITA,2,3,2,7
+Beijing,2022,12.0,Sweden,SWE,2,2,3,7
+Beijing,2022,13.0,Finland,FIN,2,2,0,4
+Beijing,2022,14.0,Great Britain,GBR,1,1,4,6
+Beijing,2022,15.0,New Zealand,NZL,1,1,2,4
+Beijing,2022,16.0,Netherlands,NED,0,3,1,4
+Beijing,2022,17.0,Australia,AUS,0,0,1,1
+Beijing,2022,17.0,Kazakhstan,KAZ,0,0,1,1
+Beijing,2022,17.0,Switzerland,SUI,0,0,1,1
