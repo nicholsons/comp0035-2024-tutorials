@@ -1,4 +1,4 @@
-# COMP0035 Tutorial 4: Database design
+# Set-up instructions
 
 ## Pre-requisites
 
@@ -74,7 +74,6 @@ started this week here are some suggestions of what to do:
 
 - Draw an ERD for your data set. Start with a single table then look for any issues that break the rules for
   normalisation up to the third normal form.
--
 
 Do some extra research. There are many tutorials publicly available that focus on data preparation and exploration with
 pandas. Try to find examples that do more that has been covered in this tutorial to expand your knowledge.

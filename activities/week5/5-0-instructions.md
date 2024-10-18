@@ -1,4 +1,4 @@
-# COMP0035 Tutorial 5: Creating databases with Python sqlite3
+# Set-up instructions
 
 ## Pre-requisites
 

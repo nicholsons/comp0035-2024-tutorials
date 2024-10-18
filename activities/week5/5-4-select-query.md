@@ -1,4 +1,4 @@
-# Introduction to SQL queries to find data
+# 4. Introduction to SQL queries to find data
 
 For activities 5.6 onwards, you will need to be able to find the primary key values for rows you have added to
 tables.

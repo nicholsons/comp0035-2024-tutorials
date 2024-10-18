@@ -1,4 +1,4 @@
-# Create the paralympics database
+# 7. Create the paralympics database
 
 This will be challenging as you are given less guidance.
 

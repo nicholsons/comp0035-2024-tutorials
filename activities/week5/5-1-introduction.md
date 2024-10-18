@@ -1,4 +1,4 @@
-# Introduction: Using Python sqlite3 and pandas to create SQLite databases
+# 1. Introduction: Using Python sqlite3 and pandas to create SQLite databases
 
 ## Overview
 

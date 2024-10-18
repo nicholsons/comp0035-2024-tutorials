@@ -1,4 +1,4 @@
-# Use pandas, sqlite3 and SQL to create a normalised database: part 1 database structure
+# 3. Use pandas, sqlite3 and SQL to create a normalised database
 
 ## ERD
 
