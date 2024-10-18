@@ -1,4 +1,4 @@
-# Introduction to database design and the entity relationship diagram (ERD)
+# 1. Introduction to database design and the entity relationship diagram (ERD)
 
 This is a brief recap of the lecture material.
 
@@ -84,9 +84,9 @@ It contains different symbols and connectors that represent:
   entity. Common cardinalities include one-to-one, one-to-many, and many-to-many.
 
 An example:
-
+<div style="width: 50%">
 ![ERD](../img/db-erd.png)
-
+</div>
 As the ERD is refined, further detail can be added to it. The ERD diagram can be used at different stages of the
 database design process.
 
@@ -101,7 +101,9 @@ notation.
 
 Entity relationships may be one-to-one, one-to-many, many-to-many, these are shown as:
 
+<div style="width: 50%">
 ![Relationship examples](../img/db-rel.png)
+</div>
 
 Relational databases do not typically implement many-to-many relationships. During the process of normalisation:
 

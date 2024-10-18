@@ -1,4 +1,4 @@
-# Introduction to using generative AI within COMP0034 and COMP0035
+# 7. Introduction to using generative AI within COMP0034 and COMP0035
 
 The information in this activity is adapted from UCL sources; the introduction is largely reproduced from the UCL "AI
 and

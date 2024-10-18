@@ -1,4 +1,4 @@
-# Distributions of values
+# 2. Distributions of values
 
 It can be useful to understand the range of values, and the distribution of those values, for the numerical columns in
 your data.

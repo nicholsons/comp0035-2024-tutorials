@@ -1,4 +1,4 @@
-# Using pandas functions to create an un-normalised database
+# 2. Using pandas functions to create an un-normalised database
 
 In this activity you will use pandas to create a database.
 

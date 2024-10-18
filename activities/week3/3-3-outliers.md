@@ -1,4 +1,4 @@
-# Identifying outliers
+# 3. Identifying outliers
 
 An outlier is a data point that significantly differs from the other observations in a dataset. It lies outside the
 overall pattern of distribution and can be unusually high or low compared to the rest of the data. Outliers can result

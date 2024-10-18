@@ -1,4 +1,4 @@
-# Introduction to SQL queries to add (insert) data into a table
+# 5. Introduction to SQL queries to add (insert) data into a table
 
 For the activities after this one, you will need to be able to add data to tables where pandas.to_sql is not sufficient.
 

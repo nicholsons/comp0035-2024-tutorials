@@ -1,4 +1,4 @@
-# Styling charts
+# 5. Styling charts
 
 During the data exploration and preparation phase charts, or plots, can be used to help you understand the data.
 
