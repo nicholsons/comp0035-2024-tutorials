@@ -1,4 +1,4 @@
-# Introduction to database design and the entity relationship diagram (ERD)
+# 1. Introduction to database design and the entity relationship diagram (ERD)
 
 This is a brief recap of the lecture material.
 

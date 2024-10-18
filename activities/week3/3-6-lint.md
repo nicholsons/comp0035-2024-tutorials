@@ -1,4 +1,4 @@
-# Using linters to check your code style
+# 6. Using linters to check your code style
 
 Linting in Python refers to the process of running a program that analyzes your code for potential errors, stylistic
 issues, and bugs. It's a little like having a spelling and grammar checker for your code.

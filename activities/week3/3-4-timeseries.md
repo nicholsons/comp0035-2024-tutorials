@@ -1,4 +1,4 @@
-# Timeseries data
+# 4. Timeseries data
 
 The previous activities considered the use of boxplots and histograms to visualise the distribution of the data.
 

@@ -1,4 +1,4 @@
-## Introduction
+# 1. Introduction
 
 In this tutorial and the next you will use pandas to explore a dataset by visualising the data.
 

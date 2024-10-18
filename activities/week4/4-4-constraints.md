@@ -1,4 +1,4 @@
-# Data constraints and on delete and update actions
+# 4. Constraints
 
 Now that you have a design of the tables, you need to clarify any constraints on the data.
 
