@@ -26,6 +26,3 @@ def incorrect_whitespace(x, y):
     result =  x+y
     print(result)
     return result
-
-
-
