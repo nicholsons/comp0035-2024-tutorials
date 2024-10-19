@@ -137,9 +137,9 @@ cursor.executemany("INSERT INTO table_name (column_name, another_column_name) VA
 
 ## Run the sample insert query code
 
-Open the [sample_sql_query.py](../../src/tutorialpkg/sample_code/sample_sql_queries.py).
+Open the [example_sql_query.py](../../src/tutorialpkg/sample_code/example_sql_queries.py).
 
-Run `sample_insert_queries()` to see the results of the examples above.
+Run `example_insert_queries()` to see the results of the examples above.
 
 If you run `sample_insert_queries()` multiple times you will get a constraint violation error as the email
 address fields must be unique. Edit the code and pass new values to add more rows and run the code again.
