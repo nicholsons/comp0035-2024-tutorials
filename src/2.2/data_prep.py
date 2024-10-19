@@ -1,13 +1,6 @@
 import pathlib
 import pandas as pd
 
-dtype_dict = {
-    'column1': 'int64',
-    'column2': 'float64',
-    'column3': 'int64',
-    # Add more columns as needed
-}
-
 def describe_dataframe(events_csv_df):
      # print(events_csv_df.shape)
      # print(events_csv_df.head , events_csv_df.tail)
@@ -27,9 +20,8 @@ def prepare_data(events_csv_df):
      #task2.05 merge
      npc_codes_df = pd.read_csv(path_to_npc_csv_file, usecols=['Name', 'Code'], encoding='utf-8', encoding_errors='ignore')
      merged_df = events_csv_df.merge(npc_codes_df, how='left', left_on='country', right_on='Name')
-     print(merged_df[['country', 'Code', 'Name']])
+     # print(merged_df[['country', 'Code', 'Name']])
 
-     return events_csv_df
      #task2.06 removing cols
      events_csv_df = events_csv_df.drop(columns=['URL', 'disabilities_included', 'highlights'], axis=1)
 
@@ -67,6 +59,10 @@ def prepare_data(events_csv_df):
 
      # 计算持续时间并将新列插入到 'end' 列之后
      events_csv_df.insert(events_csv_df.columns.get_loc('end') + 1, 'duration', (events_csv_df['end'] - events_csv_df['start']).dt.days.astype(int))
+
+     #task 2.10 output prepared file
+     output_path = 'src/tutorialpkg/data/paralympics_events_prepared.csv'
+     events_csv_df.to_csv(output_path, index=False)
      
      return events_csv_df
 
@@ -82,15 +78,10 @@ if __name__ == '__main__':
           # events_csv_df = dealing_missing_values(events_csv_df)
           # print(events_csv_df.isna().sum())
           events_csv_df = prepare_data(events_csv_df)
-          print(events_csv_df)
+          print("Data has been saved to 'src/tutorialpkg/data/paralympics_events_prepared.csv'")
      except FileNotFoundError as e:
           print(f"File not found. Please check the file path. Error: {e}")
 
-     # Read the data from the file into a Pandas dataframe
-     
-     # prepare_data(events_csv_df)
-     # describe_dataframe(events_csv_df)
-     # merged_df(events_csv_df)
      
      
      
