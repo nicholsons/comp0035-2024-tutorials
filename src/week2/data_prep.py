@@ -31,8 +31,8 @@ def prepare_data(events_csv_df):
      #delate useless column
      # events_csv_df = events_csv_df.drop(columns=['Name'], axis=1)
      # 填充 participants_m 和 participants_f 的缺失值
-     events_csv_df['participants_m'].fillna(method='ffill', inplace=True)
-     events_csv_df['participants_f'].fillna(method='ffill', inplace=True)
+     events_csv_df.loc[:, 'participants_m'] = events_csv_df['participants_m'].ffill()
+     events_csv_df.loc[:, 'participants_f'] = events_csv_df['participants_f'].ffill()
      # 删除未来年份的行并重置索引
      events_csv_df = events_csv_df.drop(index=[0, 17, 31])
      events_csv_df.reset_index(drop=True, inplace=True)
@@ -68,6 +68,22 @@ def prepare_data(events_csv_df):
      
      return events_csv_df
 
+def identify_and_handle_outliers(events_csv_df, column):
+    # 计算 Q1、Q3 和 IQR
+    Q1 = events_csv_df[column].quantile(0.25)
+    Q3 = events_csv_df[column].quantile(0.75)
+    IQR = Q3 - Q1
+
+    # 计算上下边界
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+
+    # 识别并删除异常值
+    df_cleaned = events_csv_df[(events_csv_df[column] >= lower_bound) & (events_csv_df[column] <= upper_bound)]
+    return df_cleaned
+
+
+
 
 if __name__ == '__main__':
      pth = pathlib.Path(__file__)
@@ -75,16 +91,21 @@ if __name__ == '__main__':
           paralympics_datafile_csv = pth.parent.parent / 'tutorialpkg' / 'data' / 'paralympics_events_raw.csv'
           path_to_npc_csv_file = pth.parent.parent /'tutorialpkg/data/npc_codes.csv'
           events_csv_df = pd.read_csv(paralympics_datafile_csv)
+          # Filter the DataFrame to select only rows where 'type' is 'summer'
+          # syntax: df = df[df['column_name'] == filter_value]
+          summer_df = events_csv_df[events_csv_df['type'] == 'summer']
+          # 使用该函数处理 'duration' 列的异常值
+          events_csv_df = prepare_data(events_csv_df)
+          df_prepared = identify_and_handle_outliers(events_csv_df, 'duration')
            # Create a histogram of the DataFrame
           events_csv_df.hist()
-
           # Show the plot
           plt.show()
           # df_romved_cols = removing_cols(events_csv_df)
           # print(df_romved_cols)
           # events_csv_df = dealing_missing_values(events_csv_df)
           # print(events_csv_df.isna().sum())
-          events_csv_df = prepare_data(events_csv_df)
+          
 
           print("Data has been saved to 'src/tutorialpkg/data/paralympics_events_prepared.csv'")
      except FileNotFoundError as e:
