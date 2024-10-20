@@ -1,5 +1,7 @@
 import pathlib
 import pandas as pd
+import matplotlib.pyplot as plt
+from pathlib import Path
 
 def describe_dataframe(events_csv_df):
      # print(events_csv_df.shape)
@@ -73,11 +75,17 @@ if __name__ == '__main__':
           paralympics_datafile_csv = pth.parent.parent / 'tutorialpkg' / 'data' / 'paralympics_events_raw.csv'
           path_to_npc_csv_file = pth.parent.parent /'tutorialpkg/data/npc_codes.csv'
           events_csv_df = pd.read_csv(paralympics_datafile_csv)
+           # Create a histogram of the DataFrame
+          events_csv_df.hist()
+
+          # Show the plot
+          plt.show()
           # df_romved_cols = removing_cols(events_csv_df)
           # print(df_romved_cols)
           # events_csv_df = dealing_missing_values(events_csv_df)
           # print(events_csv_df.isna().sum())
           events_csv_df = prepare_data(events_csv_df)
+
           print("Data has been saved to 'src/tutorialpkg/data/paralympics_events_prepared.csv'")
      except FileNotFoundError as e:
           print(f"File not found. Please check the file path. Error: {e}")
