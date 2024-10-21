@@ -1,0 +1,30 @@
+type,year,country,host,start,end,duration,countries,events,sports,participants_m,participants_f,participants,Code
+summer,1964,Japan,Tokyo,1964-11-08,1964-11-12,4,21,143,9,195,71,266,JPN
+summer,1968,Israel,Tel Aviv,1968-11-05,1968-11-14,9,29,188,10,578,196,774,ISR
+summer,1972,Germany,Heidelberg,1972-08-02,1972-08-11,9,43,188,10,654,268,922,GER
+summer,1976,Canada,Toronto,1976-08-04,1976-08-12,8,40,448,13,1000,271,1271,CAN
+summer,1980,Netherlands,Arnhem,1980-06-22,1980-07-01,9,43,590,13,1225,428,1653,NED
+summer,1984,Great Britain,Stoke Mandeville New York,1984-06-17,1984-08-01,45,58,975,18,1569,536,2105,GBR
+summer,1988,Republic of Korea,Seoul,1988-10-16,1988-10-25,9,60,733,18,2370,671,3041,KOR
+summer,1992,Spain,Barcelona,1992-09-05,1992-09-16,11,83,489,16,2300,699,2999,ESP
+summer,1996,United States of America,Atlanta,1996-08-16,1996-08-25,9,104,519,19,2462,790,3252,USA
+summer,2000,Australia,Sydney,2000-10-23,2000-10-31,8,123,550,19,2883,988,3871,AUS
+summer,2004,Greece,Athens,2004-09-23,2004-10-04,11,135,519,19,2600,1149,3749,GRE
+summer,2008,People's Republic of China,Beijing,2008-09-06,2008-09-17,11,146,472,20,2585,1366,3951,CHN
+summer,2012,Great Britain,London,2012-08-29,2012-09-09,11,164,530,20,2741,1502,4243,GBR
+summer,2016,Brazil,Rio,2016-09-07,2016-09-18,11,160,528,22,2657,1670,4327,BRA
+summer,2020,Japan,Tokyo,2021-08-24,2021-09-05,12,162,539,22,2547,1846,4393,JPN
+summer,2024,France,Paris,2024-08-28,2024-09-08,11,169,549,22,2551,2016,4567,FRA
+winter,1976,Sweden,Ornskoldsvik,1976-02-21,1976-02-28,7,16,53,2,161,37,198,SWE
+winter,1980,Norway,Geilo,1980-02-02,1980-02-08,6,18,64,2,229,70,299,NOR
+winter,1984,Austria,Innsbruck,1984-01-15,1984-01-21,6,21,107,3,325,94,419,AUT
+winter,1988,Austria,Innsbruck,1988-01-18,1988-01-25,7,22,97,4,300,77,377,AUT
+winter,1992,France,Tignes-Albertville,1992-03-25,1992-04-02,8,24,79,3,288,77,365,FRA
+winter,1994,Norway,Lillehammer,1994-03-10,1994-03-19,9,31,133,5,39,90,129,NOR
+winter,1998,Japan,Nagano,1998-03-07,1998-03-16,9,31,122,5,440,122,562,JPN
+winter,2002,United States of America,Salt Lake City,2002-03-09,2002-03-18,9,36,92,4,328,87,415,USA
+winter,2006,Italy,Torino,2006-03-12,2006-03-21,9,38,58,5,375,99,474,ITA
+winter,2010,Canada,Vancouver,2010-03-12,2010-03-21,9,44,64,5,381,121,502,CAN
+winter,2014,Russian Federation,Sochi,2014-03-07,2014-03-16,9,45,72,6,411,129,540,RUS
+winter,2018,Republic of Korea,PyeongChang,2018-03-09,2018-03-18,9,49,80,6,430,133,563,KOR
+winter,2022,People's Republic of China,Beijing,2022-03-04,2022-03-13,9,46,78,6,422,136,558,CHN
