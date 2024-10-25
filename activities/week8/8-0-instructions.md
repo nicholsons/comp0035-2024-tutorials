@@ -27,7 +27,7 @@ There are other methods, look in the Help for either PyCharm or VSCode.
 
 ## Complete the activities
 
-Tutorial activities can be found in the activities/week6 folder. These are:
+Tutorial activities can be found in the activities/week8 folder. These are:
 
 1. [Update the database design diagram (ERD) based on requirements (user stories)](8-1-update-erd.md)
 2. [SQL SELECT queries](8-2-select.md)
@@ -40,6 +40,5 @@ Tutorial activities can be found in the activities/week6 folder. These are:
 
 - Review your requirements and identify any additional tables that need to be added to the database
 - Update the ERD if you have new tables
-- Read the coursework specification and create the queries. Aim to create these as Python functions.
+- Read the coursework specification and create the queries. Consider creating these as Python functions.
 
-There are other techniques that can be considered at this stage, refer to the lecture for other ideas.

@@ -1,7 +1,7 @@
 import sqlite3
 from pathlib import Path
 
-from tutorialpkg.sample_code.tutorial8_select_queries import get_db_con
+from tutorialpkg.queries.tutorial8_select_queries import get_db_con
 
 
 def run_chinook_delete_queries(connection, cursor):

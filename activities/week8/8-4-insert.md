@@ -95,7 +95,7 @@ cursor.executemany("INSERT INTO table_name (column_name, another_column_name) VA
 ## Chinook insert queries
 
 View the full code and run the example queries
-in: [tutorial8_insert_queries.py](../../src/tutorialpkg/sample_code/tutorial8_insert_queries.py).
+in: [tutorial8_insert_queries.py](../../src/tutorialpkg/queries/tutorial8_insert_queries.py).
 
 ### Insert into a table with no relations
 

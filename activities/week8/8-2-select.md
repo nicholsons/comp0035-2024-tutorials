@@ -52,7 +52,7 @@ HAVING group_filter;
 - HAVING to filter groups on a condition
 
 Run the example queries in the following
-file: [tutorial8_select_queries.py](../../src/tutorialpkg/sample_code/tutorial8_select_queries.py).
+file: [tutorial8_select_queries.py](../../src/tutorialpkg/queries/tutorial8_select_queries.py).
 
 ```sqlite
 -- 1. ORDER BY: Find all artist Name in 'artist' and order in reverse alphabetical order

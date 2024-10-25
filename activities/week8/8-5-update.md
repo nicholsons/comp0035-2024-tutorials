@@ -35,10 +35,10 @@ You can also add ORDER BY and LIMIT if needed.
 
 ## Chinook database UPDATE queries
 This assumes you ran the insert queries
-in [tutorial8_insert_queries.py](../../src/tutorialpkg/sample_code/tutorial8_insert_queries.py). Make sure you run
+in [tutorial8_insert_queries.py](../../src/tutorialpkg/queries/tutorial8_insert_queries.py). Make sure you run
 this at least once before you try to update or there will not be anything to update!
 
-Open [tutorial8_update_queries.py](../../src/tutorialpkg/sample_code/tutorial8_update_queries.py) and view and run
+Open [tutorial8_update_queries.py](../../src/tutorialpkg/queries/tutorial8_update_queries.py) and view and run
 the code.
 
 There are 3 examples:

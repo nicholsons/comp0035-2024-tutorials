@@ -73,7 +73,7 @@ DataFrame.to_sql handles the commit.
 
 This tutorial focuses on sqlite3 as it uses SQL directly, and you need to develop an understanding of this. However,
 there is an example of using sqlalchemy
-in [sqlalchemy_demo.py](../../src/tutorialpkg/sample_code/sqlalchemy_demo.py). You can use it in the coursework if
+in [sqlalchemy_demo.py](../../src/tutorialpkg/queries/tutorial8_orm/sqlalchemy_demo.py). You can use it in the coursework if
 you prefer.
 
 ## pandas DataFrame

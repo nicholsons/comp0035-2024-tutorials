@@ -18,7 +18,7 @@ The same principle is used in databases to join tables, with slightly different 
 RIGHT OUTER JOIN and FULL OUTER JOIN are not supported in SQLite.
 
 Run the example queries in the following
-file: [tutorial8_queries.py](../../src/tutorialpkg/sample_code/tutorial8_select_queries.py).
+file: [tutorial8_queries.py](../../src/tutorialpkg/queries/tutorial8_select_queries.py).
 
 ```sqlite
 -- 7. LEFT JOIN: Find the artists who do not have any albums
