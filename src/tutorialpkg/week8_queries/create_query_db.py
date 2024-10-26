@@ -376,13 +376,8 @@ def create_db(data_path, db_path, empty=False):
     return cur, conn
 
 
-if __name__ == '__main__':
-    data_file_xlsx = Path(__file__).parent.parent.joinpath('data_db_activity', 'paralympics_all.xlsx')
-    # Paralympics query database
-    db_para_qry = Path(__file__).parent.parent.joinpath('data_db_activity', 'para_queries.db')
-    # Test paralympics query database
-    db_test_qry = Path(__file__).parent.parent.joinpath('data_db_activity', 'test_queries.db')
-
-    # Create the database
-    create_db(data_file_xlsx, db_para_qry)
-    create_db(data_file_xlsx, db_test_qry)
+def create_paralympics_query_db():
+    """Create the paralympics query database."""
+    db_path = Path(__file__).parent.parent.joinpath('data_db_activity', 'para_queries.db')
+    data_path = Path(__file__).parent.parent.joinpath('data_db_activity', 'paralympics_all.xlsx')
+    create_db(data_path, db_path)

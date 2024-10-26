@@ -1,11 +1,16 @@
 import sqlite3
 from pathlib import Path
 
-from tutorialpkg.queries.tutorial8_select_queries import get_db_con
+from tutorialpkg.week8_queries.select_queries import get_db_con
 
 
 def run_chinook_delete_queries(connection, cursor):
-    """Runs the DELETE queries on the chinook database."""
+    """Runs the DELETE queries on the chinook database.
+
+    Args:
+        connection (sqlite3.Connection): connection object
+        cursor (sqlite3.Cursor): cursor object
+    """
 
     # These all assume you ran the insert queries from the previous tutorial activity! If not please run
     # tutorialpkg/sample_code/tutorial8_insert_queries.py first.

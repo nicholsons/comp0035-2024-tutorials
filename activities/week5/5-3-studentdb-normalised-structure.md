@@ -27,10 +27,9 @@ erDiagram
     }
 
     enrollment {
-        int enrollment_id PK
-        int student_id FK "NOT NULL, ON UPDATE CASCADE, ON DELETE CASCADE"
-        int course_id FK "NOT NULL, ON UPDATE CASCADE, ON DELETE CASCADE"
-        int teacher_id FK "ON UPDATE CASCADE, ON DELETE SET NULL"
+        int student_id PK, FK "NOT NULL, ON UPDATE CASCADE, ON DELETE CASCADE"
+        int course_id PK, FK "NOT NULL, ON UPDATE CASCADE, ON DELETE CASCADE"
+        int teacher_id PK, FK "ON UPDATE CASCADE, ON DELETE SET NULL"
     }
 
     enrollment }o--|| student: "is enrolled in"
@@ -115,13 +114,13 @@ SQLite data types differ to SQL data types and are:
     teacher_sql = '''ADD SQL'''
     course_sql = '''ADD SQL'''
     enrollment_sql = '''CREATE TABLE enrollment (
-                                enrollment_id INTEGER PRIMARY KEY,
                                 student_id INTEGER NOT NULL, 
                                 course_id INTEGER NOT NULL,
                                 teacher_id INTEGER,
+                                PRIMARY KEY (student_id, course_id, teacher_id),
                                 FOREIGN KEY (student_id) REFERENCES student(student_id) ON DELETE CASCADE ON UPDATE CASCADE,
                                 FOREIGN KEY (course_id) REFERENCES course(course_id) ON DELETE CASCADE ON UPDATE CASCADE,
-                                FOREIGN KEY (teacher_id) REFERENCES teacher(teacher_id) ON UPDATE cascade ON DELETE SET NULL);
+                                FOREIGN KEY (teacher_id) REFERENCES teacher(teacher_id) ON UPDATE CASCADE ON DELETE SET NULL);
                                 '''
     ```
 

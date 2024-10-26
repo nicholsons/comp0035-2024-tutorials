@@ -24,15 +24,18 @@ and `npc_codes` worksheets.
 Write code to create a database that represents the following ERD; and add the data to it with relevant value in the
 PK/FK fields.
 
+SQLite does not have a ['date' data type](https://www.sqlite.org/lang_datefunc.html). Dates can be stored as text or
+integer.
+
 ```mermaid
 erDiagram
     event {
         int event_id PK
         int type "NOT NULL"
         int year "NOT NULL"
-        date start
-        date end
-        string disabilities
+        text start "format: dd/mm/yyyy"
+        text end "format: dd/mm/yyyy"
+        text disabilities
         int countries
         int events
         int sports
@@ -54,14 +57,13 @@ erDiagram
 
     host {
         int host_id PK
-        string country_code FK
+        string country_code FK "ON DELETE CASCADE ON UPDATE CASCADE"
         string host "NOT NULL"
     }
 
     host_event {
-        int host_event_id PK
-        int host_id FK
-        int event_id FK
+        int host_id FK "ON DELETE CASCADE ON UPDATE CASCADE"
+        int event_id FK "ON DELETE CASCADE ON UPDATE CASCADE"
     }
 
     event ||--o{ host_event: "hosted by"
@@ -106,7 +108,7 @@ columns = '''type, year, start, end, disabilities, countries, events, sports, pa
                 participants_f, participants, highlights, url'''
 ```
 
-You may need to convert the dates to stringe before you can insert them, e.g.
+You may need to convert the dates to text before you can insert them, e.g.
 
 ```python
 # Convert the dates to strings
@@ -180,7 +182,8 @@ The following code may be useful:
 # Iterate each event, find the pairs of hosts, then get the event_id and host_id and insert into the host_event table
 for index, row in df.iterrows():
     # Find the event id for the event. This matches based on the year and type of event.
-    result = cursor.execute('SELECT event_id FROM event WHERE year = ? AND type = ?', (row['year'], row['type'])).fetchone()
+    result = cursor.execute('SELECT event_id FROM event WHERE year = ? AND type = ?',
+                            (row['year'], row['type'])).fetchone()
     event_id = result[0]
     # Split the hosts into a list
     hosts = row['host'].split(',')
@@ -192,6 +195,7 @@ for index, row in df.iterrows():
         # Insert the host_event pair
         cursor.execute('INSERT INTO host_event (host_id, event_id) VALUES (?, ?)', (host_id, event_id))
 ```
+
 ## 3. Challenging: Include the medal standings data in the paralympics database
 
 Define and create a database that includes the events, npc code and the medal standings data.
