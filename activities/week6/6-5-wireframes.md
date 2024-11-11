@@ -89,7 +89,7 @@ The following attempt to sketch the screens for the paralympic games fact pages,
 ![Paralympics app wireframes](../img/wireframe-para-quiz.png)
 
 Draw your own wireframes for the student user stories related to taking a quiz and saving their score. There is
-a [basic wireframe PowerPoint file](wireframes.pptx) in the week 6 folder.
+a [basic wireframe PowerPoint file](../files/wireframes.pptx) in the '/activities/files' folder.
 
 Do your wireframes highlight any new user stories that need to be added? Or any constraints that need to be added to the
 existing user stories?
