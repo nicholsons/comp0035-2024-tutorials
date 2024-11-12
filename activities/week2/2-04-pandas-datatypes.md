@@ -98,7 +98,7 @@ the values will all be unique as they are in different years, so just printing t
 You can reference a column using:
 
 - bracket notation: `name_of_dataframe['col_name']`
-- dot notation: `name_of_datafrane.col_name` (works where there are no spaces or special characters in the column name)
+- dot notation: `name_of_dataframe.col_name` (works where there are no spaces or special characters in the column name)
 - using [`loc`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.loc.html) to identify a group of rows and
   columns using integer positions or column labels: `name_of_dataframe.loc[7:9]` (row with index 7 and column with index
     9) or `name_of_dataframe[:, 'col_a']` (all rows from the column named 'col_a') or

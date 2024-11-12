@@ -1,4 +1,4 @@
-# Introduction to database design and the entity relationship diagram (ERD)
+# 1. Introduction to database design and the entity relationship diagram (ERD)
 
 This is a brief recap of the lecture material.
 
@@ -84,9 +84,9 @@ It contains different symbols and connectors that represent:
   entity. Common cardinalities include one-to-one, one-to-many, and many-to-many.
 
 An example:
-
+<div style="width: 50%">
 ![ERD](../img/db-erd.png)
-
+</div>
 As the ERD is refined, further detail can be added to it. The ERD diagram can be used at different stages of the
 database design process.
 
@@ -101,7 +101,9 @@ notation.
 
 Entity relationships may be one-to-one, one-to-many, many-to-many, these are shown as:
 
+<div style="width: 50%">
 ![Relationship examples](../img/db-rel.png)
+</div>
 
 Relational databases do not typically implement many-to-many relationships. During the process of normalisation:
 
@@ -131,7 +133,8 @@ Further, chatGPT and CoPilot can give suggestions and draw diagrams based on an 
 In [copilot](https://copilot.microsoft.com) try entering the prompt `Draw an ERD for the data in the attached csv file`
 and attach the `src/tutorialpkg/data_db_activity/student_data.csv` file to it.
 
-Note that the diagram format below given by copilot _is not_ good enough for the coursework!
+Note that the format of the diagram below given by copilot _is not_ a good enough format for the coursework as it does
+not follow an appropriate notation and lacks some of the necessary details.
 
 ```text
 +---------------+        +-------------+        +-----------------+
@@ -164,7 +167,7 @@ to do this:
 In the Mermaid or Lucid GPT try `Draw an entity relationship diagram that is normalised to 3NF for the attached data`
 
 On previous occasions this has returned the mermaid syntax for the ERD as well as a well formatted ERD. However on this
-occasion the diagram is again not suitable for the coursework.
+occasion the diagram format is not good enough for the coursework as it does not use a recognised ERD notation.
 
 ![Mermaid GPT drawn ERD](../img/erd-mermaid-gpt-school.png)
 

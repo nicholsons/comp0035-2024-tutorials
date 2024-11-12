@@ -1,4 +1,4 @@
-# COMP0035 Tutorial 4: Database design
+# Set-up instructions
 
 ## Pre-requisites
 
@@ -47,6 +47,13 @@ The following screenshot shows this in PyCharm on macOS:
 
 If you are not in a venv, refer to [Week 1 activity 7](../week1/1-7-create-virtual-environment.md) for instructions.
 
+### Enable mermaid support
+The activities use a tool called [Mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) to define and display database diagrams. To view the diagrams in the markdown you need to have this tool installed.
+
+For PyCharm, Go to PyCharm | Settings | Plugins then search for the [Mermaid plugin](https://plugins.jetbrains.com/plugin/20146-mermaid). 
+
+For VS Code, go to Code | Settings | Extensions and find the [Mermaid chart extension](https://marketplace.visualstudio.com/publishers/MermaidChart).
+
 ## Complete the activities
 
 Use the version of the data files in the `data_db_activity` directory for these activities. A change has been made to the '
@@ -67,7 +74,6 @@ started this week here are some suggestions of what to do:
 
 - Draw an ERD for your data set. Start with a single table then look for any issues that break the rules for
   normalisation up to the third normal form.
--
 
 Do some extra research. There are many tutorials publicly available that focus on data preparation and exploration with
 pandas. Try to find examples that do more that has been covered in this tutorial to expand your knowledge.

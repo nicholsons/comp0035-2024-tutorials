@@ -1,4 +1,4 @@
-# Introduction: Using Python sqlite3 and pandas to create SQLite databases
+# 1. Introduction: Using Python sqlite3 and pandas to create SQLite databases
 
 ## Overview
 
@@ -44,17 +44,42 @@ sqlite3 can be used to create databases.
 
 The typical steps involved in using sqlite3 are:
 
-- Create a database file
+- Import `import sqlite3`
+- Define the path to a database file
 - Create a connection object to the database
 - Create a cursor object
 - Use the cursor object to execute SQL queries on the database. 'Queries' here refers to executing SQL statements which
   covers creating, querying, inserting, deleting and updating.
 - Close the connection object
 
-# pandas DataFrame
+## sqlalchemy
+
+[sqlalchemy](https://www.sqlalchemy.org) provides an alternative to sqlite3. It is written to work with SQL databases in
+Python, and is not only for sqlite. "sqlalchemy" will be used in COMP0034. You will see it described as an ORM, Object
+Relational Mapper, which "maps" Python classes to database tables. It abstracts database operations, with the aim of
+making it easier for developers to work with queries.
+
+You must install sqlalchemy to use it e.g., `pip install sqlalchemy`
+
+The typical steps involved in using sqlalchemy with pandas to add data to the database:
+
+- Import `from sqlalchemy import create_engine`
+- Define the database file path
+- Create an instance of a sqlite connection engine
+- Connect to the database
+- Use the DataFrame.to_sql method to execute the sql, using the connection engine as the value for the `con=` parameter
+
+DataFrame.to_sql handles the commit.
+
+This tutorial focuses on sqlite3 as it uses SQL directly, and you need to develop an understanding of this. However,
+there is an example of using sqlalchemy
+in [sqlalchemy_demo.py](../../src/tutorialpkg/queries/tutorial8_orm/sqlalchemy_demo.py). You can use it in the coursework if
+you prefer.
+
+## pandas DataFrame
 
 You have used pandas DataFrame to read the data from a .csv or .xslx file, and to save a DataFrame back to .csv. Pandas
-DataFrame also has methods that will interact with a SQL, or SQLite, database.
+DataFrame has methods that will interact with a SQL, or SQLite, database.
 
 - [pd.read_sql](https://pandas.pydata.org/docs/reference/api/pandas.read_sql.html)
 - [pd.read_sql_table](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_table.html)

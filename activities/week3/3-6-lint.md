@@ -1,4 +1,4 @@
-# Using linters to check your code style
+# 6. Using linters to check your code style
 
 Linting in Python refers to the process of running a program that analyzes your code for potential errors, stylistic
 issues, and bugs. It's a little like having a spelling and grammar checker for your code.
@@ -12,7 +12,7 @@ Using a linter can save you time and headaches by catching issues early in the d
 Linters are Python packages. The PyCharm IDE by default includes a linter. For the VS Code IDE you need to install
 linter.
 
-Popular Python linters include [Pylint](), [Flake8], and [Black](https://black.readthedocs.io/en/stable/). Each has its
+Popular Python linters include [Pylint](https://pypi.org/project/pylint/), [Flake8](https://pypi.org/project/flake8/), and [Black](https://black.readthedocs.io/en/stable/). Each has its
 own set of rules and configurations.
 
 Some of the things that linters can help with:

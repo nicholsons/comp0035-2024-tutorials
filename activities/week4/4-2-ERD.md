@@ -1,4 +1,4 @@
-# Design and draw an Entity Relationship Diagram (ERD) for a database normalised to 3rd normal form (3NF)
+# 2. Design and draw an Entity Relationship Diagram (ERD) for a database normalised to 3rd normal form (3NF)
 
 In this activity you will develop an ERD for the `paralympics_events_prepared.xlsx` data file.
 

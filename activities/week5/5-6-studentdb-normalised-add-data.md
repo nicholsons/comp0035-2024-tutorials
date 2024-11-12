@@ -1,4 +1,4 @@
-# Use pandas, sqlite3 and SQL to add data to a normalised database
+# 6. Use pandas, sqlite3 and SQL to add data to a normalised database
 
 The general approach used in this activity is:
 

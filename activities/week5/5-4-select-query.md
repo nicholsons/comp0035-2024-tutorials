@@ -1,4 +1,4 @@
-# Introduction to SQL queries to find data
+# 4. Introduction to SQL queries to find data
 
 For activities 5.6 onwards, you will need to be able to find the primary key values for rows you have added to
 tables.
@@ -108,7 +108,7 @@ print(rows[0][0])
 
 ## Run the sample insert query code
 
-Open the [sample_sql_query.py](../../src/tutorialpkg/sample_code/sample_sql_queries.py).
+Open the [example_sql_query.py](../../src/tutorialpkg/sample_code/example_sql_queries.py).
 
 Run `sample_insert_queries()` to see the results of the examples above.
 

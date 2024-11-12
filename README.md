@@ -55,7 +55,9 @@ This will be updated each week with the activities for that week.
 2. [Plotting distributions using histograms](activities/week3/3-2-distribution)
 3. [Identifying outliers using boxplots](activities/week3/3-3-outliers.md)
 4. [Plotting timeseries](activities/week3/3-4-timeseries.md)
-5. [Check your code complies with Python style guides](activities/week3/3-6-lint)
+5. [Chart styling](activities/week3/3-5-chart-styling.md)
+6. [Check your code complies with Python style guides](activities/week3/3-6-lint)
+7. [Code AI](activities/week3/3-7-aitools.md)
 
 ### Week 4 Database design and creation using Python sqlite3
 [Week 4 instructions](activities/week4/4-0-instructions.md)
@@ -65,7 +67,7 @@ This will be updated each week with the activities for that week.
 4. [Data constraints and UPDATE/DELETE actions](activities/week4/4-4-constraints.md)
 5. [Further practice/information](activities/week4/4-5-further-practice.md)
 
-### Week 5 Database design and creation using Python sqlite3 continued; linting
+### Week 5 Database design and creation using Python sqlite3 continued
 [Week 5 instructions](activities/week5/5-0-instructions.md)
 1. [Introduction: Using Python sqlite3 and pandas to create SQLite databases](activities/week5/5-1-introduction.md)
 2. [Create an un_normalised database from a pandas dataframe](activities/week5/5-2-create-studentdb-unnormalised.md)
@@ -77,19 +79,40 @@ This will be updated each week with the activities for that week.
 
 ### Week 6 Requirements analysis, wireframes
 
-To be added by reading week.
+[Week 6 setup](activities/week6/6-0-instructions.md)
+1. [Introduction to requirements](activities/week6/6-1-introduction.md)
+2. [Identifying requirements](activities/week6/6-2-identify-requirements.md)
+3. [Documenting requirements](activities/week6/6-3-document-requirements.md)
+4. [Prioritising requirements](activities/week6/6-4-prioritise-requirements.md)
+5. [Wireframes](activities/week6/6-5-wireframes.md)
 
 ### Week 7 Application design
-
-To be added by reading week.
+[Week 7 setup](activities/week7/7-0-instructions.md)
+1. [Introduction to application design](activities/week7/7-1-introduction.md)
+2. [Identifying classes](activities/week7/7-2-identify-classes.md)
+3. [Application design diagram](activities/week7/7-3-draw-design.md)
+4. [Review the design against design principles](activities/week7/7-4-review-design.md)
+5. [Draw the application design for the paralympics prediction web app](activities/week7/7-5-design-medals.md)
 
 ### Week 8 Database design, database queries
-
-To be added by reading week.
+[Week 8 setup](activities/week8/8-0-instructions.md)
+1. [Update the database design diagram (ERD) based on requirements](activities/week8/8-1-update-erd.md)
+2. [SQL SELECT queries](activities/week8/8-2-select.md)
+3. [SQL SELECT queries with JOIN - where data is in two or more related tables](activities/week8/8-3-join.md)
+4. [SQL INSERT queries](activities/week8/8-4-insert.md)
+5. [SQL UPDATE queries](activities/week8/8-5-update.md)
+6. [SQL DELETE queries](activities/week8/8-6-delete.md)
+7. [Final ERD for the paralympics database](activities/week8/8-7-erd-paralympics-final.md)
 
 ### Week 9 Unit testing with pytest and continuous integration using GitHub Actions
-
-To be added by reading week.
+[Week 9 setup](activities/week9/9-0-instructions.md)
+1. [Introduction to testing](activities/week9/9-1-introduction.md)
+2. [Unit testing](activities/week9/9-2-unit-testing.md)
+3. [Fixtures](activities/week9/9-3-fixtures.md)
+4. [GitHub Actions for continuous integration](activities/week9/9-4-ci-github.md)
+5. [Coverage](activities/week9/9-5-coverage.md)
+6. [Using gen AI in testing](activities/week9/9-6-ai-testing.md)
+7. [Further information](activities/week9/9-7-further.md)
 
 ### Week 10 Coursework support
 
