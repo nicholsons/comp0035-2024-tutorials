@@ -96,8 +96,8 @@ def sample_insert_queries():
     # Finally, close the connection
     con.close()
 
-    if __name__ == '__main__':
-        sample_select_queries()
 
-    # Uncomment the lines below to run the insert queries and see the results by running the select queries
-    sample_insert_queries()
+if __name__ == '__main__':
+    # Uncomment the lines below to run the insert queries and then see the results by running the select queries
+    # sample_insert_queries()
+    sample_select_queries()

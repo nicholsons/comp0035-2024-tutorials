@@ -29,7 +29,6 @@ You have already seen the first two of these in the previous activities.
 erDiagram
     Event {
         int event_id PK "NOT NULL, UNIQUE"
-        int host_id FK "NOT NULL"
         int type "NOT NULL"
         int year "NOT NULL"
         date start "CHECK format is dd/mm/yyyy"
@@ -49,9 +48,8 @@ erDiagram
     }
 
     HostEvent {
-        int host_event_code PK
-        string country_code FK
-        int event_code FK
+        string country_code PK, FK
+        int event_id PK, FK
     }
 
     Participants {

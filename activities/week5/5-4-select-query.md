@@ -108,7 +108,7 @@ print(rows[0][0])
 
 ## Run the sample insert query code
 
-Open the [sample_sql_query.py](../../src/tutorialpkg/sample_code/sample_sql_queries.py).
+Open the [example_sql_query.py](../../src/tutorialpkg/sample_code/example_sql_queries.py).
 
 Run `sample_insert_queries()` to see the results of the examples above.
 
