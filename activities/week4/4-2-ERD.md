@@ -90,7 +90,7 @@ The key aspects of 1NF are:
 A **primary key (PK)** is an attribute (column) containing unique values so it can be used to uniquely identify a given
 row.
 
-A **composite primary key** is where to a combination of two or more columns are used to uniquely identify a row.
+A **composite primary key** is where a combination of two or more columns are used to uniquely identify a row.
 
 Review the contents of the table against the above checklist. Note any issues as these will need to be addressed.
 
@@ -168,7 +168,7 @@ Re-draw the tables to reflect the relationships:
 
 ## Second normal form (2NF)
 
-Second normal form (2NF) is when a table that is already in 1NF and in which the values in each non-primary-key
+Second normal form (2NF) is when a table that is already in 1NF and in which the values of each non-primary-key
 attribute (column) can be worked out from the values in all the attributes (columns) that make up the primary key.
 
 To determine 2NF you should be aware of the term **functional dependency**.

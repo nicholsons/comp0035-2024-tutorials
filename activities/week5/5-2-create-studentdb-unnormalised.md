@@ -4,7 +4,7 @@ In this activity you will use pandas to create a database.
 
 ## Data
 
-The next two activities use the `student_data.csv` file to create a SQLite database.
+The next two activities use the `student_data.csv` file under `src/tutorialpkg/data_db_activity`to create an SQLite database.
 
 ## 1. Use pandas and sqlite3 to create a single table un-normalised database
 
@@ -45,7 +45,7 @@ the following columns:
     - Call the function and pass the data file and db to it.
 
 3. Run the code. You should see a new file in the directory
-   `src/tutorialpkg/data_db_activities/enrollments_unnormalised.db`. Click on the file to open it. For VS Code this
+   `src/tutorialpkg/data_db_activity/enrollments_unnormalised.db`. Click on the file to open it. For VS Code this
    assumes you added the extensions as noted in [the setup instructions](5-0-instructions.md), for PyCharm Professional
    it should open.
 

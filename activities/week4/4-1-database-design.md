@@ -85,8 +85,12 @@ It contains different symbols and connectors that represent:
 
 An example:
 <div style="width: 50%">
+
 ![ERD](../img/db-erd.png)
 </div>
+
+
+
 As the ERD is refined, further detail can be added to it. The ERD diagram can be used at different stages of the
 database design process.
 
@@ -102,6 +106,7 @@ notation.
 Entity relationships may be one-to-one, one-to-many, many-to-many, these are shown as:
 
 <div style="width: 50%">
+
 ![Relationship examples](../img/db-rel.png)
 </div>
 
