@@ -43,7 +43,8 @@ such as:
 
 ### Functional and non-functional requirements
 
-![Natural language specification](/Users/sarahsanders/PycharmProjects/comp0034-5/docs/assets/img/nat_lang_spec.png)
+![Natural language specification](../img/nat_lang_spec.png)
+
 
 Each requirement should focus on a single distinct feature or behaviour and should be written in the same uniform
 sentence structure. They should not be too vague or abstract; too general or imprecise; or include implementation
@@ -51,9 +52,9 @@ information. e.g. "32 The ATM system shall validate the PIN"
 
 You will typically see these listed in a table format, and they may be grouped in some way e.g.
 
-![Functional requirements](/Users/sarahsanders/PycharmProjects/comp0034-5/docs/assets/img/functional.png)
+![Functional requirements](../img/functional.png)
 
-![Non functional requirements](/Users/sarahsanders/PycharmProjects/comp0034-5/docs/assets/img/nonfunctional.png)
+![Non functional requirements](../img/nonfunctional.png)
 
 ## Document the quiz app requirements as user stories
 
