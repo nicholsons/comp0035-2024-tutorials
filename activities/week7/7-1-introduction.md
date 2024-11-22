@@ -66,6 +66,8 @@ For this course, you are asked to design the structure of your app considering:
 
 ### Tools for diagrams
 
+For the coursework all diagrams can be hand drawn and do not need to be created with a diagramming app.
+
 Mermaid is used in the course materials. There are also online tools such as LucidChart, though this requires you to 
 create an account and the free version limits the number of diagrams you can create.
 
