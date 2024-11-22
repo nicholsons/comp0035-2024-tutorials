@@ -1,4 +1,4 @@
-# Generative AI in application design
+# 6. Generative AI in application design
 
 ## Tools used
 
@@ -24,10 +24,14 @@ The following tools were tried in relation to this week's activities:
 - [chatGPT - free 'everyday tasks' version](https://chatgpt.com)
 
     - the same prompt was used as for copilot. The result included methods as well as classes and attributes,
-      and relationships between classes. ChatGPT offered to draw this as a diagram but the result was not meaningful. A
-      further prompt was then added
+      and relationships between classes.
+    - ChatGPT offered to draw this as a diagram but the result was not meaningful.
+    - A second prompt was used:
       `To what extent does this class diagram meet the principles of low coupling and high cohesion?`. The response to
       this was detailed and is included below.
+    - A third prompt was used:
+      `Modify the design so that it is consistent with the model view controller design pattern`. Again the response is
+      below.
 
 As a learning outcome, it is recommended that you first attempt the activities without using gen AI tools as you need to
 learn the technique before you can critically judge the output of a gen AI tool. Comparing your own work to the response
@@ -405,3 +409,130 @@ Conclusion:
 
 This class diagram provides a strong foundation with reasonable low coupling and high cohesion, especially for a small
 to medium-sized system. With some refinements, it can achieve even better adherence to these principles.
+
+## Modify the design to conform to MVC
+
+Prompt: `Modify the design so that it is consistent with the model view controller design pattern`
+
+### Response
+
+To align the system with the Model-View-Controller (MVC) design pattern, we can reorganize the architecture into three
+key layers:
+
+1. Model: Represents the data and business logic.
+2. View: Handles the presentation of data to users (e.g., GUI or web interface).
+3. Controller: Manages user input, updates the model, and selects views.
+
+#### Revised Class Design
+
+1. Model Layer
+
+This layer contains the core business logic and data structures.
+
+Classes:
+
+- User: Represents users and their roles.
+- Student, Teacher, Admin: Subclasses of User, encapsulating role-specific data.
+- Quiz, Question, Answer: Represent the quiz system's structure and logic.
+- QuizScore: Stores quiz scores.
+- ParalympicsData: Manages event-related data.
+- Filters: Represents filtering criteria for data analysis.
+
+3. View Layer
+
+This layer handles how data is displayed to the user. It should be decoupled from the underlying model.
+
+Classes:
+
+- DashboardView: Displays the main dashboard for students, teachers, or admins.
+- QuizView: Handles the presentation of quiz questions and results.
+- StatisticsView: Displays statistical information and charts.
+- AuthenticationView: Manages login and authentication screens.
+
+4. Controller Layer
+
+This layer processes user inputs, interacts with the model, and updates the views.
+
+Classes:
+
+- UserController: Manages user authentication and role-based actions.
+- QuizController: Handles quiz-related operations, such as starting a quiz, submitting answers, and retrieving scores.
+- StatisticsController: Manages requests for data and chart generation.
+- AdminController: Oversees database updates and administrative actions.
+
+#### Updated Class Relationships
+
+Controller-to-Model Interaction:
+
+- Controllers interact with model classes to retrieve or update data.
+- Example: QuizController interacts with Quiz and QuizScore to manage quiz functionality.
+
+Controller-to-View Interaction:
+
+- Controllers pass data to views for rendering.
+- Example: QuizController updates QuizView with current questions and user scores.
+
+Decoupling:
+
+- Views never directly interact with models, ensuring clear separation of concerns.
+
+#### MVC Class Diagram
+
+Here’s how the updated structure would look:
+
+Model Classes:
+
+1. User
+
+    - Attributes: userId, name, email, role
+    - Methods: login(), logout()
+2. Student, Teacher, Admin (inherit from User).
+3. Quiz
+
+    - Attributes: quizId, title, questions
+    - Methods: addQuestion(), removeQuestion()
+4. Question
+
+    - Attributes: questionId, text, options, score
+    - Methods: addAnswer(), editAnswer()
+5. Answer, QuizScore, ParalympicsData, Filters (unchanged from original design).
+
+View Classes:
+
+1. DashboardView
+
+    - Methods: renderDashboard()
+2. QuizView
+
+    - Methods: displayQuestion(), showResult()
+
+3. StatisticsView
+
+    - Methods: renderChart()
+
+4. AuthenticationView
+
+    - Methods: renderLoginForm(), displayError()
+
+Controller Classes:
+
+1. UserController
+    - Methods: authenticateUser(), routeToDashboard()
+2. QuizController
+    - Methods: startQuiz(), submitAnswer(), viewScores()
+3. StatisticsController
+    - Methods: fetchData(), generateChart()
+4. AdminController
+    - Methods: updateDatabase()
+
+Benefits of MVC in This Design
+
+1. Separation of Concerns:
+    - Views are only responsible for displaying data.
+    - Controllers handle all logic, interacting with models to fetch or update data.
+    - Models encapsulate the business logic and data without worrying about the presentation.
+2. Flexibility:
+    - Views can be easily swapped out or updated (e.g., adding mobile-friendly views).
+    - Controllers can adapt to changes in user workflows without altering the models.
+3. Scalability:
+    - Adding new functionality (e.g., new types of views or user roles) becomes straightforward.

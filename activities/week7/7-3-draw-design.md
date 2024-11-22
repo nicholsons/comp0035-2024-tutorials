@@ -110,7 +110,7 @@ classDiagram
     Participants -- Event
 ```    
 
-# Add the controller classes
+## Add the controller classes
 
 These control the business logic. I have grouped them according to function, you may choose a different way to group
 them. There is no single way to design these!
