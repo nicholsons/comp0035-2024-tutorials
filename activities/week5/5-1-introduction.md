@@ -24,8 +24,7 @@ databases. It allows users to perform various operations on the data stored in t
 
 SQL is widely used in data analysis, web development, and many other fields where data management is needed.
 
-SQLite is a variant of SQL. As the name implies, it has less syntax and features than SQL. It is used in this course
-as a [key benefit](https://www.sqlite.org/whentouse.html) of SQLite for this course is that it saves the database as a
+SQLite is a variant of SQL. As the name implies, it has less syntax and features than SQL. A [key benefit](https://www.sqlite.org/whentouse.html) of SQLite for this course is that it saves the database as a
 single file which does not require a database server to work with. This simplifies the infrastructure you need for the
 course.
 
@@ -86,4 +85,4 @@ DataFrame has methods that will interact with a SQL, or SQLite, database.
 - [pd.read_sql_query](https://pandas.pydata.org/docs/reference/api/pandas.read_sql_query.html)
 - [df.to_sql](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_sql.html)
 
-[Next activity](5-2-create-studentdb-unnormalised)
+[Next activity](5-2-create-studentdb-unnormalised.md)
