@@ -99,7 +99,7 @@ database if it needs to be stored when the app is not running.
 
 The controller classes in this example do not need to be stored in the database.
 
-Charts and FilterOptions will be created dynamically when the app is running, but do not be saved to a database.
+Charts and FilterOptions will be created dynamically when the app is running, but do not need to be saved to a database.
 
 The Student does not log in so no Student details need to be saved, only their score for a quiz and their email address 
 are optionally saved if they want to be considered for the competition of highest scorer for a quiz.

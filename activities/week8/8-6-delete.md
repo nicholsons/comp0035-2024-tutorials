@@ -43,10 +43,10 @@ statement will delete all rows in the table.
     ```
 
 This assumes you ran the insert queries
-in [tutorial8_insert_queries.py](../../src/tutorialpkg/queries/tutorial8_insert_queries.py). Make sure you run
+in [tutorial8_insert_queries.py](../../src/tutorialpkg/week8_queries/insert_queries.py). Make sure you run
 this before you try to delete or there will not be anything to delete!
 
-Open [tutorial8_update_queries.py](../../src/tutorialpkg/queries/tutorial8_update_queries.py) and view and run
+Open [tutorial8_update_queries.py](../../src/tutorialpkg/week8_queries/update_queries.py) and view and run
 the code.
 
 ## Paralympics data DELETE examples
