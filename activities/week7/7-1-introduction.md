@@ -78,3 +78,5 @@ If your app follows a REST API design, there are specific REST API design tools:
 - [Apiary - integrates with GitHub](https://apiary.io/how-apiary-works)
 - [Swagger - complies with the OpenAPI standard](https://swagger.io)
 - [RAML](https://raml.org/developers/design-your-api)
+
+[Next activity](7-2-identify-classes.md)

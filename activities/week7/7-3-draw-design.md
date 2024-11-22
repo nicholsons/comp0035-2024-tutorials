@@ -294,3 +294,5 @@ classDiagram
     ChartController -- Filter
     AuthenticationController -- Teacher
 ```    
+
+[Next activity](7-4-review-design.md)

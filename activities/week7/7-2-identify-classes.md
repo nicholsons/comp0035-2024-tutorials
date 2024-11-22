@@ -192,3 +192,5 @@ You could also review the classes and functions against the wireframes to check 
 - search
 - view_chart
 - complete_quiz
+
+[Next activity](7-3-draw-design.md)

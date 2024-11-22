@@ -12,3 +12,5 @@ As a starting point, look at the diagram you have created and consider:
 - Is the same business logic represented in more than one place? If so then remove the duplication.
 
 This is not an exhaustive list of questions. This aspect is challenging!
+
+[Next activity](7-5-design-medals.md)

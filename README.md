@@ -93,6 +93,7 @@ This will be updated each week with the activities for that week.
 3. [Application design diagram](activities/week7/7-3-draw-design.md)
 4. [Review the design against design principles](activities/week7/7-4-review-design.md)
 5. [Draw the application design for the paralympics prediction web app](activities/week7/7-5-design-medals.md)
+6. [Using gen AI tools in application design](activities/week7/7-6-genAI.md)
 
 ### Week 8 Database design, database queries
 [Week 8 setup](activities/week8/8-0-instructions.md)
