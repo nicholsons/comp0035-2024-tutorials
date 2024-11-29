@@ -15,8 +15,8 @@ controller action, two main things typically occur: the models are used to retri
 database; and that data is passed to a view, which renders the requested page.
 
 **Models**: Represent the data and its related logic. It interacts with the database and determines the data that is
-being transferred to the controller. We will use the ORM pattern to map between these model classes and the database
-tables.
+being transferred to the controller. We will use the ORM data mapper pattern to map between these model classes and the
+database tables.
 
 **Views**: In the view, the data is accessed and the information contained within is used to render the HTML content of
 the page the user ultimately sees in their browser. In the coursework, the design of the views is represented by the
@@ -162,7 +162,8 @@ may be useful.
 
 ## Review the list of classes, attributes and functions
 
-> Review the list of classes and their attributes. You will need to complete the following with the results of the previous step:
+> Review the list of classes and their attributes. You will need to complete the following with the results of the
+> previous step:
 
 - Event: type, year, start, end, duration, countries, events, sports, highlights, url
 - Country: country_code, country_name

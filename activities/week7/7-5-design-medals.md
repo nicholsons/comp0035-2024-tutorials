@@ -1,5 +1,8 @@
 # 5. Draw the application design for the paralympics prediction web app
 
+This is an optional activity to give you the opportunity to apply the application design techniques with less
+instruction.
+
 ## Project overview
 
 |                 | Paralympics prediction app                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
