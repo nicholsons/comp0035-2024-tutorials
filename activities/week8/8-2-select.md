@@ -11,7 +11,7 @@ You are then asked to write your own queries for the paralympics database. The v
 use for this activity is [para_queries.db](../../src/tutorialpkg/data_db_activity/para_queries.db). This is based on
 the ERD shown at the end of activity 8.1.
 
-## SELECT queries
+## SELECT query syntax
 
 The core syntax of a query to find one or more rows or values from a table was covered in week 5:
 
