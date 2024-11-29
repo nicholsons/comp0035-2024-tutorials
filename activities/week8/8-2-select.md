@@ -11,7 +11,7 @@ You are then asked to write your own queries for the paralympics database. The v
 use for this activity is [para_queries.db](../../src/tutorialpkg/data_db_activity/para_queries.db). This is based on
 the ERD shown at the end of activity 8.1.
 
-## SELECT queries
+## SELECT query syntax
 
 The core syntax of a query to find one or more rows or values from a table was covered in week 5:
 
@@ -26,8 +26,6 @@ When executing queries with sqlite3 you can access the results using:
 - `fetchall()` returns a list of tuples, each tuple contains field values of a row.
 - `fetchone()` returns a row as a tuple.
 - `fetchmany(size)` returns a specified number of rows as tuples.
-
-## SELECT queries
 
 In this tutorial, you will start to use some of the additional SQL clauses
 for [SELECT](https://www.sqlite.org/lang_select.html):
@@ -52,7 +50,7 @@ HAVING group_filter;
 - HAVING to filter groups on a condition
 
 Run the example queries in the following
-file: [tutorial8_select_queries.py](../../src/tutorialpkg/week8_queries/select_queries.py).
+file: [tutorial8_select_queries.py](../../src/tutorialpkg/week8_queries/select_queries.py) by going to the 'main' and uncomment the line with `run_chinook_select_queries()`
 
 ```sqlite
 -- 1. ORDER BY: Find all artist Name in 'artist' and order in reverse alphabetical order
