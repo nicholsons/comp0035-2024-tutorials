@@ -18,7 +18,7 @@ The same principle is used in databases to join tables, with slightly different 
 RIGHT OUTER JOIN and FULL OUTER JOIN are not supported in SQLite.
 
 Run the example queries in the following
-file: [tutorial8_queries.py](../../src/tutorialpkg/week8_queries/select_queries.py).
+file: [tutorial8_queries.py](../../src/tutorialpkg/week8_queries/select_queries.py). You may need to remove the # from the line in 'main' that includes `run_chinook_select_join_queries()` and add # before the line with `run_chinook_select_queries()`.
 
 ```sqlite
 -- 7. LEFT JOIN: Find the artists who do not have any albums
