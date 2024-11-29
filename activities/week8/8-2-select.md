@@ -27,8 +27,6 @@ When executing queries with sqlite3 you can access the results using:
 - `fetchone()` returns a row as a tuple.
 - `fetchmany(size)` returns a specified number of rows as tuples.
 
-## SELECT queries
-
 In this tutorial, you will start to use some of the additional SQL clauses
 for [SELECT](https://www.sqlite.org/lang_select.html):
 
