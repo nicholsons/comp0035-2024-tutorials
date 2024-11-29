@@ -50,7 +50,7 @@ HAVING group_filter;
 - HAVING to filter groups on a condition
 
 Run the example queries in the following
-file: [tutorial8_select_queries.py](../../src/tutorialpkg/week8_queries/select_queries.py).
+file: [tutorial8_select_queries.py](../../src/tutorialpkg/week8_queries/select_queries.py) by going to the 'main' and uncomment the line with `run_chinook_select_queries()`
 
 ```sqlite
 -- 1. ORDER BY: Find all artist Name in 'artist' and order in reverse alphabetical order
