@@ -31,7 +31,10 @@ if __name__ == '__main__':
     db_path_para_queries = Path(__file__).parent.parent.joinpath('data_db_activity', 'para_queries.db')
     con, cur = get_db_con(db_path_para_queries)
 
-    # Will only work if you have run the insert queries to set the values for the quiz etc!
+    # Print the SQL to the terminal
+    con.set_trace_callback(print)
+
+    # The following will only work if you have run the insert queries to set the values for the quiz etc!
 
     cur.execute("SELECT * FROM Quiz;")
     result = cur.fetchall()

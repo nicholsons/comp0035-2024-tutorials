@@ -20,7 +20,11 @@ if __name__ == '__main__':
         db_path_para_queries = Path(__file__).parent.parent.joinpath('data_db_activity', 'para_queries.db')
         con, cur = get_db_con(db_path_para_queries)
 
+        # Print the SQL to the terminal
+        con.set_trace_callback(print)
+
         # 1. Insert a new Quiz with quiz_name value "My first quiz"
+        print("\nQuestion 1: Insert a new Quiz with quiz_name value 'My first quiz'.")
         vals = ("My first quiz",)
         sql_stmt = "INSERT INTO Quiz (quiz_name) VALUES (?);"
         cur.execute(sql_stmt, vals)
@@ -30,7 +34,7 @@ if __name__ == '__main__':
         print(quiz_id)
 
         # 2. Insert two new Questions for the Quiz you just entered.
-        print(f"\nInserting two new Questions for the Quiz with id {quiz_id}.")
+        print(f"\nQuestion 2: Insert two new Questions for the Quiz with id {quiz_id}.")
         q_text = [("text for question 1",), ("text for question 2",)]
         for qt in q_text:
             sql_ques = "INSERT INTO Question (question) VALUES (?);"
@@ -43,6 +47,7 @@ if __name__ == '__main__':
             print(f'Question inserted with id: {question_id}')
 
         # 3. Insert three answer choices for one of the new questions.
+        print("\nQuestion 3: Insert three answer choices for one of the new questions.")
         choices = [(question_id, "option a", 1, 1),
                    (question_id, "option b", 0, 0),
                    (question_id, "option c", 0, -0)]
@@ -55,7 +60,7 @@ if __name__ == '__main__':
 
         # 4. An insert query that fails the validation constraint and raises and integrity error]
         # Fail FK validation as no Quiz exists with an ID of 1000
-        print("\nAn insert query that fails the validation constraint and raises and integrity error:")
+        print("\nQuestion 4: An insert query that fails the validation constraint and raises and integrity error:")
         sql_stmt = "INSERT INTO QuizQuestion (quiz_id, question_id) VALUES (?, ?);"
         vals = (1000, 77)
         cur.execute(sql_stmt, vals)

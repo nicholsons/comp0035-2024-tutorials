@@ -31,9 +31,13 @@ if __name__ == '__main__':
     db_path_para_queries = Path(__file__).parent.parent.joinpath('data_db_activity', 'para_queries.db')
     con, cur = get_db_con(db_path_para_queries)
 
+    # Print the SQL to the terminal
+    con.set_trace_callback(print)
+
     # Will only work if you have run the insert queries to set the values for the quiz etc!
 
     # 1. Update the Quiz name from "My first quiz" to "My first quiz updated"
+    print("\nQuestion 1: Update the Quiz name from 'My first quiz' to 'My first quiz updated'.\n")
     cur.execute("SELECT * FROM Quiz;")
     result = cur.fetchall()
     print("\nBefore quiz_name update:")
@@ -46,6 +50,7 @@ if __name__ == '__main__':
     [print(row) for row in result]
 
     # 2. Update the question text for all questions to the value: "the same question text for all questions"
+    print("\nQuestion 2: Update the question text for all questions to the value: 'the same question text for all questions'.\n")
     cur.execute("SELECT * FROM Question;")
     result = cur.fetchall()
     print("\nBefore question update:")
@@ -58,6 +63,7 @@ if __name__ == '__main__':
     [print(row) for row in result]
 
     # 3. Print all the rows from the QuizQuestion table.
+    print("\nQuestion 3: Print all the rows from the QuizQuestion table.\n")
     cur.execute("SELECT * FROM QuizQuestion;")
     result = cur.fetchall()
     print("\nAll rows in QuizQuestion table before quiz id:")
